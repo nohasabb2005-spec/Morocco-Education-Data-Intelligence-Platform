@@ -1,0 +1,973 @@
+﻿annee,region,code_region,poste_budgetaire,budget_alloue_mad,budget_execute_mad,taux_execution
+2015,Casablanca-Settat,CAS,Salaires enseignants,40410362,31762545,0.786
+2015,Casablanca-Settat,CAS,Infrastructures,8164972,6033914,0.739
+2015,Casablanca-Settat,CAS,Équipements pédagogiques,3162985,2720167,0.86
+2015,Casablanca-Settat,CAS,Appui social (cartables),2912729,2627282,0.902
+2015,Casablanca-Settat,CAS,Restauration scolaire,2323001,2209174,0.951
+2015,Casablanca-Settat,CAS,Formation continue,874326,855965,0.979
+2015,Casablanca-Settat,CAS,Transport scolaire,1164041,947529,0.814
+2015,Casablanca-Settat,CAS,Numérique & TIC,1478420,1141340,0.772
+2015,Casablanca-Settat,CAS,Autres,695510,587706,0.845
+2015,Rabat-Salé-Kénitra,RAB,Salaires enseignants,23195598,16886395,0.728
+2015,Rabat-Salé-Kénitra,RAB,Infrastructures,4707544,4123808,0.876
+2015,Rabat-Salé-Kénitra,RAB,Équipements pédagogiques,1606943,1414110,0.88
+2015,Rabat-Salé-Kénitra,RAB,Appui social (cartables),1637742,1313469,0.802
+2015,Rabat-Salé-Kénitra,RAB,Restauration scolaire,1344197,1172140,0.872
+2015,Rabat-Salé-Kénitra,RAB,Formation continue,644285,470972,0.731
+2015,Rabat-Salé-Kénitra,RAB,Transport scolaire,790391,698706,0.884
+2015,Rabat-Salé-Kénitra,RAB,Numérique & TIC,923671,721387,0.781
+2015,Rabat-Salé-Kénitra,RAB,Autres,405908,296313,0.73
+2015,Marrakech-Safi,MAR,Salaires enseignants,30526353,29610563,0.97
+2015,Marrakech-Safi,MAR,Infrastructures,5583587,4500371,0.806
+2015,Marrakech-Safi,MAR,Équipements pédagogiques,2007029,1493230,0.744
+2015,Marrakech-Safi,MAR,Appui social (cartables),1855970,1371562,0.739
+2015,Marrakech-Safi,MAR,Restauration scolaire,1320431,957313,0.725
+2015,Marrakech-Safi,MAR,Formation continue,489143,437294,0.894
+2015,Marrakech-Safi,MAR,Transport scolaire,699904,675407,0.965
+2015,Marrakech-Safi,MAR,Numérique & TIC,1015429,942318,0.928
+2015,Marrakech-Safi,MAR,Autres,370274,325841,0.88
+2015,Fès-Meknès,FES,Salaires enseignants,22945312,17117202,0.746
+2015,Fès-Meknès,FES,Infrastructures,5115057,3769797,0.737
+2015,Fès-Meknès,FES,Équipements pédagogiques,1878208,1511957,0.805
+2015,Fès-Meknès,FES,Appui social (cartables),1466998,1428856,0.974
+2015,Fès-Meknès,FES,Restauration scolaire,1141870,900935,0.789
+2015,Fès-Meknès,FES,Formation continue,533408,452863,0.849
+2015,Fès-Meknès,FES,Transport scolaire,655346,570807,0.871
+2015,Fès-Meknès,FES,Numérique & TIC,768176,578437,0.753
+2015,Fès-Meknès,FES,Autres,389265,318030,0.817
+2015,Souss-Massa,SOU,Salaires enseignants,14534101,11089519,0.763
+2015,Souss-Massa,SOU,Infrastructures,3292076,2673166,0.812
+2015,Souss-Massa,SOU,Équipements pédagogiques,1062488,1012551,0.953
+2015,Souss-Massa,SOU,Appui social (cartables),1104910,1069552,0.968
+2015,Souss-Massa,SOU,Restauration scolaire,868380,684284,0.788
+2015,Souss-Massa,SOU,Formation continue,338542,267786,0.791
+2015,Souss-Massa,SOU,Transport scolaire,577312,542096,0.939
+2015,Souss-Massa,SOU,Numérique & TIC,620427,528604,0.852
+2015,Souss-Massa,SOU,Autres,230692,214544,0.93
+2015,Tanger-Tétouan-Al Hoceïma,TAN,Salaires enseignants,21022832,20371124,0.969
+2015,Tanger-Tétouan-Al Hoceïma,TAN,Infrastructures,5006791,3795148,0.758
+2015,Tanger-Tétouan-Al Hoceïma,TAN,Équipements pédagogiques,1344940,1144544,0.851
+2015,Tanger-Tétouan-Al Hoceïma,TAN,Appui social (cartables),1204133,1164396,0.967
+2015,Tanger-Tétouan-Al Hoceïma,TAN,Restauration scolaire,878460,814333,0.927
+2015,Tanger-Tétouan-Al Hoceïma,TAN,Formation continue,496309,376698,0.759
+2015,Tanger-Tétouan-Al Hoceïma,TAN,Transport scolaire,702614,604248,0.86
+2015,Tanger-Tétouan-Al Hoceïma,TAN,Numérique & TIC,703813,586980,0.834
+2015,Tanger-Tétouan-Al Hoceïma,TAN,Autres,373137,269405,0.722
+2015,Oriental,ORI,Salaires enseignants,15835783,11940180,0.754
+2015,Oriental,ORI,Infrastructures,3101772,2683033,0.865
+2015,Oriental,ORI,Équipements pédagogiques,833409,741734,0.89
+2015,Oriental,ORI,Appui social (cartables),958697,807223,0.842
+2015,Oriental,ORI,Restauration scolaire,582047,554691,0.953
+2015,Oriental,ORI,Formation continue,257620,188835,0.733
+2015,Oriental,ORI,Transport scolaire,416750,349653,0.839
+2015,Oriental,ORI,Numérique & TIC,508062,473006,0.931
+2015,Oriental,ORI,Autres,236418,201664,0.853
+2015,Béni Mellal-Khénifra,BMK,Salaires enseignants,13212142,10926441,0.827
+2015,Béni Mellal-Khénifra,BMK,Infrastructures,2901552,2768080,0.954
+2015,Béni Mellal-Khénifra,BMK,Équipements pédagogiques,913617,671508,0.735
+2015,Béni Mellal-Khénifra,BMK,Appui social (cartables),757187,615593,0.813
+2015,Béni Mellal-Khénifra,BMK,Restauration scolaire,800845,657494,0.821
+2015,Béni Mellal-Khénifra,BMK,Formation continue,348683,339966,0.975
+2015,Béni Mellal-Khénifra,BMK,Transport scolaire,422715,371144,0.878
+2015,Béni Mellal-Khénifra,BMK,Numérique & TIC,462481,405133,0.876
+2015,Béni Mellal-Khénifra,BMK,Autres,222372,193908,0.872
+2015,Drâa-Tafilalet,DRA,Salaires enseignants,10999489,8766592,0.797
+2015,Drâa-Tafilalet,DRA,Infrastructures,1723930,1332597,0.773
+2015,Drâa-Tafilalet,DRA,Équipements pédagogiques,628294,611958,0.974
+2015,Drâa-Tafilalet,DRA,Appui social (cartables),516477,456566,0.884
+2015,Drâa-Tafilalet,DRA,Restauration scolaire,522414,410095,0.785
+2015,Drâa-Tafilalet,DRA,Formation continue,195403,141667,0.725
+2015,Drâa-Tafilalet,DRA,Transport scolaire,270862,211543,0.781
+2015,Drâa-Tafilalet,DRA,Numérique & TIC,371194,275797,0.743
+2015,Drâa-Tafilalet,DRA,Autres,127492,93707,0.735
+2015,Laâyoune-Sakia El Hamra,LAA,Salaires enseignants,1992750,1506519,0.756
+2015,Laâyoune-Sakia El Hamra,LAA,Infrastructures,435568,380251,0.873
+2015,Laâyoune-Sakia El Hamra,LAA,Équipements pédagogiques,152200,133936,0.88
+2015,Laâyoune-Sakia El Hamra,LAA,Appui social (cartables),136996,100418,0.733
+2015,Laâyoune-Sakia El Hamra,LAA,Restauration scolaire,100661,95124,0.945
+2015,Laâyoune-Sakia El Hamra,LAA,Formation continue,50144,39363,0.785
+2015,Laâyoune-Sakia El Hamra,LAA,Transport scolaire,55977,42095,0.752
+2015,Laâyoune-Sakia El Hamra,LAA,Numérique & TIC,85294,76424,0.896
+2015,Laâyoune-Sakia El Hamra,LAA,Autres,32083,30607,0.954
+2015,Guelmim-Oued Noun,GUE,Salaires enseignants,2692422,2205094,0.819
+2015,Guelmim-Oued Noun,GUE,Infrastructures,590961,454449,0.769
+2015,Guelmim-Oued Noun,GUE,Équipements pédagogiques,162315,130664,0.805
+2015,Guelmim-Oued Noun,GUE,Appui social (cartables),178835,174900,0.978
+2015,Guelmim-Oued Noun,GUE,Restauration scolaire,136921,133772,0.977
+2015,Guelmim-Oued Noun,GUE,Formation continue,57201,54341,0.95
+2015,Guelmim-Oued Noun,GUE,Transport scolaire,83104,75459,0.908
+2015,Guelmim-Oued Noun,GUE,Numérique & TIC,78852,72701,0.922
+2015,Guelmim-Oued Noun,GUE,Autres,39874,33853,0.849
+2015,Dakhla-Oued Eddahab,DAK,Salaires enseignants,789006,693536,0.879
+2015,Dakhla-Oued Eddahab,DAK,Infrastructures,180497,174902,0.969
+2015,Dakhla-Oued Eddahab,DAK,Équipements pédagogiques,64348,58943,0.916
+2015,Dakhla-Oued Eddahab,DAK,Appui social (cartables),56243,40720,0.724
+2015,Dakhla-Oued Eddahab,DAK,Restauration scolaire,39264,30076,0.766
+2015,Dakhla-Oued Eddahab,DAK,Formation continue,17151,16550,0.965
+2015,Dakhla-Oued Eddahab,DAK,Transport scolaire,25360,19984,0.788
+2015,Dakhla-Oued Eddahab,DAK,Numérique & TIC,32951,28140,0.854
+2015,Dakhla-Oued Eddahab,DAK,Autres,13618,11834,0.869
+2016,Casablanca-Settat,CAS,Salaires enseignants,40010842,33048956,0.826
+2016,Casablanca-Settat,CAS,Infrastructures,9094898,7857992,0.864
+2016,Casablanca-Settat,CAS,Équipements pédagogiques,2504074,2118446,0.846
+2016,Casablanca-Settat,CAS,Appui social (cartables),2471433,2038932,0.825
+2016,Casablanca-Settat,CAS,Restauration scolaire,2171151,1817253,0.837
+2016,Casablanca-Settat,CAS,Formation continue,954392,775921,0.813
+2016,Casablanca-Settat,CAS,Transport scolaire,1424610,1330585,0.934
+2016,Casablanca-Settat,CAS,Numérique & TIC,1380449,1361123,0.986
+2016,Casablanca-Settat,CAS,Autres,562345,479117,0.852
+2016,Rabat-Salé-Kénitra,RAB,Salaires enseignants,24793360,21148736,0.853
+2016,Rabat-Salé-Kénitra,RAB,Infrastructures,5015257,4629082,0.923
+2016,Rabat-Salé-Kénitra,RAB,Équipements pédagogiques,1668908,1567105,0.939
+2016,Rabat-Salé-Kénitra,RAB,Appui social (cartables),1384040,1292693,0.934
+2016,Rabat-Salé-Kénitra,RAB,Restauration scolaire,1262472,985991,0.781
+2016,Rabat-Salé-Kénitra,RAB,Formation continue,656710,640949,0.976
+2016,Rabat-Salé-Kénitra,RAB,Transport scolaire,895120,682976,0.763
+2016,Rabat-Salé-Kénitra,RAB,Numérique & TIC,1041666,838541,0.805
+2016,Rabat-Salé-Kénitra,RAB,Autres,402486,351371,0.873
+2016,Marrakech-Safi,MAR,Salaires enseignants,29211619,22785063,0.78
+2016,Marrakech-Safi,MAR,Infrastructures,6210554,6005605,0.967
+2016,Marrakech-Safi,MAR,Équipements pédagogiques,1624763,1241319,0.764
+2016,Marrakech-Safi,MAR,Appui social (cartables),1555356,1477588,0.95
+2016,Marrakech-Safi,MAR,Restauration scolaire,1267723,1238565,0.977
+2016,Marrakech-Safi,MAR,Formation continue,489256,375259,0.767
+2016,Marrakech-Safi,MAR,Transport scolaire,748035,596184,0.797
+2016,Marrakech-Safi,MAR,Numérique & TIC,1003836,855268,0.852
+2016,Marrakech-Safi,MAR,Autres,472979,373180,0.789
+2016,Fès-Meknès,FES,Salaires enseignants,27659193,24174135,0.874
+2016,Fès-Meknès,FES,Infrastructures,5373282,4685502,0.872
+2016,Fès-Meknès,FES,Équipements pédagogiques,1485084,1393009,0.938
+2016,Fès-Meknès,FES,Appui social (cartables),1587010,1425135,0.898
+2016,Fès-Meknès,FES,Restauration scolaire,1424550,1029950,0.723
+2016,Fès-Meknès,FES,Formation continue,567632,466593,0.822
+2016,Fès-Meknès,FES,Transport scolaire,880840,865865,0.983
+2016,Fès-Meknès,FES,Numérique & TIC,811053,599368,0.739
+2016,Fès-Meknès,FES,Autres,342577,281256,0.821
+2016,Souss-Massa,SOU,Salaires enseignants,16366845,12618837,0.771
+2016,Souss-Massa,SOU,Infrastructures,3014580,2194614,0.728
+2016,Souss-Massa,SOU,Équipements pédagogiques,1323500,1062771,0.803
+2016,Souss-Massa,SOU,Appui social (cartables),1019954,894499,0.877
+2016,Souss-Massa,SOU,Restauration scolaire,799120,699230,0.875
+2016,Souss-Massa,SOU,Formation continue,330819,257708,0.779
+2016,Souss-Massa,SOU,Transport scolaire,559628,466730,0.834
+2016,Souss-Massa,SOU,Numérique & TIC,510045,373863,0.733
+2016,Souss-Massa,SOU,Autres,257739,225006,0.873
+2016,Tanger-Tétouan-Al Hoceïma,TAN,Salaires enseignants,20393877,16824948,0.825
+2016,Tanger-Tétouan-Al Hoceïma,TAN,Infrastructures,4619343,3473746,0.752
+2016,Tanger-Tétouan-Al Hoceïma,TAN,Équipements pédagogiques,1610823,1183955,0.735
+2016,Tanger-Tétouan-Al Hoceïma,TAN,Appui social (cartables),1451423,1258384,0.867
+2016,Tanger-Tétouan-Al Hoceïma,TAN,Restauration scolaire,1056210,935802,0.886
+2016,Tanger-Tétouan-Al Hoceïma,TAN,Formation continue,506366,384838,0.76
+2016,Tanger-Tétouan-Al Hoceïma,TAN,Transport scolaire,650924,587133,0.902
+2016,Tanger-Tétouan-Al Hoceïma,TAN,Numérique & TIC,836034,731530,0.875
+2016,Tanger-Tétouan-Al Hoceïma,TAN,Autres,348170,332503,0.955
+2016,Oriental,ORI,Salaires enseignants,14238487,12031521,0.845
+2016,Oriental,ORI,Infrastructures,2612566,2097890,0.803
+2016,Oriental,ORI,Équipements pédagogiques,904454,674722,0.746
+2016,Oriental,ORI,Appui social (cartables),748039,727842,0.973
+2016,Oriental,ORI,Restauration scolaire,571904,428356,0.749
+2016,Oriental,ORI,Formation continue,268075,199984,0.746
+2016,Oriental,ORI,Transport scolaire,462983,380572,0.822
+2016,Oriental,ORI,Numérique & TIC,503544,399310,0.793
+2016,Oriental,ORI,Autres,206409,190309,0.922
+2016,Béni Mellal-Khénifra,BMK,Salaires enseignants,16122741,15768040,0.978
+2016,Béni Mellal-Khénifra,BMK,Infrastructures,2904053,2192560,0.755
+2016,Béni Mellal-Khénifra,BMK,Équipements pédagogiques,962641,782627,0.813
+2016,Béni Mellal-Khénifra,BMK,Appui social (cartables),875279,667838,0.763
+2016,Béni Mellal-Khénifra,BMK,Restauration scolaire,610953,587125,0.961
+2016,Béni Mellal-Khénifra,BMK,Formation continue,300956,246784,0.82
+2016,Béni Mellal-Khénifra,BMK,Transport scolaire,515315,470998,0.914
+2016,Béni Mellal-Khénifra,BMK,Numérique & TIC,435410,316543,0.727
+2016,Béni Mellal-Khénifra,BMK,Autres,260007,254807,0.98
+2016,Drâa-Tafilalet,DRA,Salaires enseignants,11111497,10333692,0.93
+2016,Drâa-Tafilalet,DRA,Infrastructures,1763375,1553533,0.881
+2016,Drâa-Tafilalet,DRA,Équipements pédagogiques,681241,604942,0.888
+2016,Drâa-Tafilalet,DRA,Appui social (cartables),519945,478349,0.92
+2016,Drâa-Tafilalet,DRA,Restauration scolaire,446631,393929,0.882
+2016,Drâa-Tafilalet,DRA,Formation continue,208832,180431,0.864
+2016,Drâa-Tafilalet,DRA,Transport scolaire,292250,245782,0.841
+2016,Drâa-Tafilalet,DRA,Numérique & TIC,317022,261543,0.825
+2016,Drâa-Tafilalet,DRA,Autres,151858,138646,0.913
+2016,Laâyoune-Sakia El Hamra,LAA,Salaires enseignants,1973964,1547588,0.784
+2016,Laâyoune-Sakia El Hamra,LAA,Infrastructures,431322,310983,0.721
+2016,Laâyoune-Sakia El Hamra,LAA,Équipements pédagogiques,172628,147424,0.854
+2016,Laâyoune-Sakia El Hamra,LAA,Appui social (cartables),133932,119065,0.889
+2016,Laâyoune-Sakia El Hamra,LAA,Restauration scolaire,117987,111734,0.947
+2016,Laâyoune-Sakia El Hamra,LAA,Formation continue,51831,45145,0.871
+2016,Laâyoune-Sakia El Hamra,LAA,Transport scolaire,69961,53800,0.769
+2016,Laâyoune-Sakia El Hamra,LAA,Numérique & TIC,66577,52795,0.793
+2016,Laâyoune-Sakia El Hamra,LAA,Autres,35383,34180,0.966
+2016,Guelmim-Oued Noun,GUE,Salaires enseignants,2876599,2611952,0.908
+2016,Guelmim-Oued Noun,GUE,Infrastructures,452062,384252,0.85
+2016,Guelmim-Oued Noun,GUE,Équipements pédagogiques,162841,122619,0.753
+2016,Guelmim-Oued Noun,GUE,Appui social (cartables),142061,102710,0.723
+2016,Guelmim-Oued Noun,GUE,Restauration scolaire,132749,105801,0.797
+2016,Guelmim-Oued Noun,GUE,Formation continue,45019,38536,0.856
+2016,Guelmim-Oued Noun,GUE,Transport scolaire,88376,66193,0.749
+2016,Guelmim-Oued Noun,GUE,Numérique & TIC,99723,76188,0.764
+2016,Guelmim-Oued Noun,GUE,Autres,44885,34382,0.766
+2016,Dakhla-Oued Eddahab,DAK,Salaires enseignants,934747,850620,0.91
+2016,Dakhla-Oued Eddahab,DAK,Infrastructures,198139,164851,0.832
+2016,Dakhla-Oued Eddahab,DAK,Équipements pédagogiques,52295,40006,0.765
+2016,Dakhla-Oued Eddahab,DAK,Appui social (cartables),48232,43071,0.893
+2016,Dakhla-Oued Eddahab,DAK,Restauration scolaire,34198,28281,0.827
+2016,Dakhla-Oued Eddahab,DAK,Formation continue,14546,11462,0.788
+2016,Dakhla-Oued Eddahab,DAK,Transport scolaire,24192,20345,0.841
+2016,Dakhla-Oued Eddahab,DAK,Numérique & TIC,24162,22519,0.932
+2016,Dakhla-Oued Eddahab,DAK,Autres,11851,10121,0.854
+2017,Casablanca-Settat,CAS,Salaires enseignants,36176962,26951836,0.745
+2017,Casablanca-Settat,CAS,Infrastructures,9560892,7878175,0.824
+2017,Casablanca-Settat,CAS,Équipements pédagogiques,3262298,2805576,0.86
+2017,Casablanca-Settat,CAS,Appui social (cartables),2831180,2579205,0.911
+2017,Casablanca-Settat,CAS,Restauration scolaire,1787404,1565766,0.876
+2017,Casablanca-Settat,CAS,Formation continue,943250,785727,0.833
+2017,Casablanca-Settat,CAS,Transport scolaire,1374280,1082933,0.788
+2017,Casablanca-Settat,CAS,Numérique & TIC,1551834,1218190,0.785
+2017,Casablanca-Settat,CAS,Autres,639872,464547,0.726
+2017,Rabat-Salé-Kénitra,RAB,Salaires enseignants,30036649,28985366,0.965
+2017,Rabat-Salé-Kénitra,RAB,Infrastructures,6563029,6438332,0.981
+2017,Rabat-Salé-Kénitra,RAB,Équipements pédagogiques,1812635,1607807,0.887
+2017,Rabat-Salé-Kénitra,RAB,Appui social (cartables),1421391,1282094,0.902
+2017,Rabat-Salé-Kénitra,RAB,Restauration scolaire,1247756,1139201,0.913
+2017,Rabat-Salé-Kénitra,RAB,Formation continue,565344,494110,0.874
+2017,Rabat-Salé-Kénitra,RAB,Transport scolaire,851264,709954,0.834
+2017,Rabat-Salé-Kénitra,RAB,Numérique & TIC,987103,939722,0.952
+2017,Rabat-Salé-Kénitra,RAB,Autres,399332,358600,0.898
+2017,Marrakech-Safi,MAR,Salaires enseignants,30733621,23142416,0.753
+2017,Marrakech-Safi,MAR,Infrastructures,6157586,5049220,0.82
+2017,Marrakech-Safi,MAR,Équipements pédagogiques,1963516,1496199,0.762
+2017,Marrakech-Safi,MAR,Appui social (cartables),1656008,1326463,0.801
+2017,Marrakech-Safi,MAR,Restauration scolaire,1143256,1105529,0.967
+2017,Marrakech-Safi,MAR,Formation continue,534789,402696,0.753
+2017,Marrakech-Safi,MAR,Transport scolaire,753656,691102,0.917
+2017,Marrakech-Safi,MAR,Numérique & TIC,779729,599612,0.769
+2017,Marrakech-Safi,MAR,Autres,445181,341008,0.766
+2017,Fès-Meknès,FES,Salaires enseignants,22762399,20213010,0.888
+2017,Fès-Meknès,FES,Infrastructures,4877712,4648460,0.953
+2017,Fès-Meknès,FES,Équipements pédagogiques,1475166,1323224,0.897
+2017,Fès-Meknès,FES,Appui social (cartables),1634861,1576006,0.964
+2017,Fès-Meknès,FES,Restauration scolaire,1044114,814409,0.78
+2017,Fès-Meknès,FES,Formation continue,534202,501616,0.939
+2017,Fès-Meknès,FES,Transport scolaire,776896,605202,0.779
+2017,Fès-Meknès,FES,Numérique & TIC,770563,592563,0.769
+2017,Fès-Meknès,FES,Autres,454135,358312,0.789
+2017,Souss-Massa,SOU,Salaires enseignants,14469690,13268705,0.917
+2017,Souss-Massa,SOU,Infrastructures,2882014,2608223,0.905
+2017,Souss-Massa,SOU,Équipements pédagogiques,970181,864431,0.891
+2017,Souss-Massa,SOU,Appui social (cartables),955640,879189,0.92
+2017,Souss-Massa,SOU,Restauration scolaire,672578,517212,0.769
+2017,Souss-Massa,SOU,Formation continue,347849,266452,0.766
+2017,Souss-Massa,SOU,Transport scolaire,425848,403278,0.947
+2017,Souss-Massa,SOU,Numérique & TIC,606816,447224,0.737
+2017,Souss-Massa,SOU,Autres,219326,179189,0.817
+2017,Tanger-Tétouan-Al Hoceïma,TAN,Salaires enseignants,19743476,15735550,0.797
+2017,Tanger-Tétouan-Al Hoceïma,TAN,Infrastructures,4048011,3339609,0.825
+2017,Tanger-Tétouan-Al Hoceïma,TAN,Équipements pédagogiques,1471225,1131372,0.769
+2017,Tanger-Tétouan-Al Hoceïma,TAN,Appui social (cartables),1084017,859626,0.793
+2017,Tanger-Tétouan-Al Hoceïma,TAN,Restauration scolaire,1061965,993999,0.936
+2017,Tanger-Tétouan-Al Hoceïma,TAN,Formation continue,404591,292115,0.722
+2017,Tanger-Tétouan-Al Hoceïma,TAN,Transport scolaire,669395,592414,0.885
+2017,Tanger-Tétouan-Al Hoceïma,TAN,Numérique & TIC,719963,666686,0.926
+2017,Tanger-Tétouan-Al Hoceïma,TAN,Autres,380929,372929,0.979
+2017,Oriental,ORI,Salaires enseignants,13653872,12889255,0.944
+2017,Oriental,ORI,Infrastructures,3298944,2573176,0.78
+2017,Oriental,ORI,Équipements pédagogiques,864424,755506,0.874
+2017,Oriental,ORI,Appui social (cartables),821312,761356,0.927
+2017,Oriental,ORI,Restauration scolaire,623620,579967,0.93
+2017,Oriental,ORI,Formation continue,270004,201423,0.746
+2017,Oriental,ORI,Transport scolaire,411164,296038,0.72
+2017,Oriental,ORI,Numérique & TIC,471254,414233,0.879
+2017,Oriental,ORI,Autres,249168,190862,0.766
+2017,Béni Mellal-Khénifra,BMK,Salaires enseignants,17280495,15535165,0.899
+2017,Béni Mellal-Khénifra,BMK,Infrastructures,3614169,3361177,0.93
+2017,Béni Mellal-Khénifra,BMK,Équipements pédagogiques,999017,934081,0.935
+2017,Béni Mellal-Khénifra,BMK,Appui social (cartables),810716,618576,0.763
+2017,Béni Mellal-Khénifra,BMK,Restauration scolaire,664069,483442,0.728
+2017,Béni Mellal-Khénifra,BMK,Formation continue,272244,212622,0.781
+2017,Béni Mellal-Khénifra,BMK,Transport scolaire,508273,461512,0.908
+2017,Béni Mellal-Khénifra,BMK,Numérique & TIC,584315,529389,0.906
+2017,Béni Mellal-Khénifra,BMK,Autres,195886,186875,0.954
+2017,Drâa-Tafilalet,DRA,Salaires enseignants,9184519,6686330,0.728
+2017,Drâa-Tafilalet,DRA,Infrastructures,1815649,1452519,0.8
+2017,Drâa-Tafilalet,DRA,Équipements pédagogiques,600730,579104,0.964
+2017,Drâa-Tafilalet,DRA,Appui social (cartables),681121,525144,0.771
+2017,Drâa-Tafilalet,DRA,Restauration scolaire,495389,387394,0.782
+2017,Drâa-Tafilalet,DRA,Formation continue,203132,169615,0.835
+2017,Drâa-Tafilalet,DRA,Transport scolaire,334089,291993,0.874
+2017,Drâa-Tafilalet,DRA,Numérique & TIC,323779,259671,0.802
+2017,Drâa-Tafilalet,DRA,Autres,146960,122712,0.835
+2017,Laâyoune-Sakia El Hamra,LAA,Salaires enseignants,2175658,2029889,0.933
+2017,Laâyoune-Sakia El Hamra,LAA,Infrastructures,400159,382151,0.955
+2017,Laâyoune-Sakia El Hamra,LAA,Équipements pédagogiques,137259,114611,0.835
+2017,Laâyoune-Sakia El Hamra,LAA,Appui social (cartables),144687,132678,0.917
+2017,Laâyoune-Sakia El Hamra,LAA,Restauration scolaire,93190,79398,0.852
+2017,Laâyoune-Sakia El Hamra,LAA,Formation continue,46596,41191,0.884
+2017,Laâyoune-Sakia El Hamra,LAA,Transport scolaire,62548,47286,0.756
+2017,Laâyoune-Sakia El Hamra,LAA,Numérique & TIC,81618,77456,0.949
+2017,Laâyoune-Sakia El Hamra,LAA,Autres,30278,24011,0.793
+2017,Guelmim-Oued Noun,GUE,Salaires enseignants,2466651,2219986,0.9
+2017,Guelmim-Oued Noun,GUE,Infrastructures,452880,447898,0.989
+2017,Guelmim-Oued Noun,GUE,Équipements pédagogiques,180413,154073,0.854
+2017,Guelmim-Oued Noun,GUE,Appui social (cartables),149054,119392,0.801
+2017,Guelmim-Oued Noun,GUE,Restauration scolaire,126336,119893,0.949
+2017,Guelmim-Oued Noun,GUE,Formation continue,55491,41452,0.747
+2017,Guelmim-Oued Noun,GUE,Transport scolaire,87498,78311,0.895
+2017,Guelmim-Oued Noun,GUE,Numérique & TIC,79783,67736,0.849
+2017,Guelmim-Oued Noun,GUE,Autres,37782,31283,0.828
+2017,Dakhla-Oued Eddahab,DAK,Salaires enseignants,766830,598894,0.781
+2017,Dakhla-Oued Eddahab,DAK,Infrastructures,160875,132561,0.824
+2017,Dakhla-Oued Eddahab,DAK,Équipements pédagogiques,62312,50099,0.804
+2017,Dakhla-Oued Eddahab,DAK,Appui social (cartables),46120,38095,0.826
+2017,Dakhla-Oued Eddahab,DAK,Restauration scolaire,35283,34860,0.988
+2017,Dakhla-Oued Eddahab,DAK,Formation continue,15909,12791,0.804
+2017,Dakhla-Oued Eddahab,DAK,Transport scolaire,28381,24663,0.869
+2017,Dakhla-Oued Eddahab,DAK,Numérique & TIC,33137,32739,0.988
+2017,Dakhla-Oued Eddahab,DAK,Autres,12467,9089,0.729
+2018,Casablanca-Settat,CAS,Salaires enseignants,39626245,30115946,0.76
+2018,Casablanca-Settat,CAS,Infrastructures,9212092,6955129,0.755
+2018,Casablanca-Settat,CAS,Équipements pédagogiques,2676551,2523987,0.943
+2018,Casablanca-Settat,CAS,Appui social (cartables),2383178,2268785,0.952
+2018,Casablanca-Settat,CAS,Restauration scolaire,2229334,1999713,0.897
+2018,Casablanca-Settat,CAS,Formation continue,992692,967874,0.975
+2018,Casablanca-Settat,CAS,Transport scolaire,1355338,1246911,0.92
+2018,Casablanca-Settat,CAS,Numérique & TIC,1284566,1226761,0.955
+2018,Casablanca-Settat,CAS,Autres,632513,459204,0.726
+2018,Rabat-Salé-Kénitra,RAB,Salaires enseignants,27330935,21564107,0.789
+2018,Rabat-Salé-Kénitra,RAB,Infrastructures,5363558,4644841,0.866
+2018,Rabat-Salé-Kénitra,RAB,Équipements pédagogiques,2178888,1579694,0.725
+2018,Rabat-Salé-Kénitra,RAB,Appui social (cartables),1827686,1655884,0.906
+2018,Rabat-Salé-Kénitra,RAB,Restauration scolaire,1360997,1277977,0.939
+2018,Rabat-Salé-Kénitra,RAB,Formation continue,507351,404358,0.797
+2018,Rabat-Salé-Kénitra,RAB,Transport scolaire,816186,621934,0.762
+2018,Rabat-Salé-Kénitra,RAB,Numérique & TIC,1018529,797508,0.783
+2018,Rabat-Salé-Kénitra,RAB,Autres,461423,357141,0.774
+2018,Marrakech-Safi,MAR,Salaires enseignants,27961737,25640913,0.917
+2018,Marrakech-Safi,MAR,Infrastructures,5915661,4691119,0.793
+2018,Marrakech-Safi,MAR,Équipements pédagogiques,1676313,1569029,0.936
+2018,Marrakech-Safi,MAR,Appui social (cartables),1426000,1370386,0.961
+2018,Marrakech-Safi,MAR,Restauration scolaire,1121227,851011,0.759
+2018,Marrakech-Safi,MAR,Formation continue,500417,455379,0.91
+2018,Marrakech-Safi,MAR,Transport scolaire,857571,627742,0.732
+2018,Marrakech-Safi,MAR,Numérique & TIC,813990,646308,0.794
+2018,Marrakech-Safi,MAR,Autres,380554,341738,0.898
+2018,Fès-Meknès,FES,Salaires enseignants,24342588,20739885,0.852
+2018,Fès-Meknès,FES,Infrastructures,5779900,4901355,0.848
+2018,Fès-Meknès,FES,Équipements pédagogiques,1826940,1572995,0.861
+2018,Fès-Meknès,FES,Appui social (cartables),1728266,1484580,0.859
+2018,Fès-Meknès,FES,Restauration scolaire,1353015,1221773,0.903
+2018,Fès-Meknès,FES,Formation continue,448768,411520,0.917
+2018,Fès-Meknès,FES,Transport scolaire,859723,726466,0.845
+2018,Fès-Meknès,FES,Numérique & TIC,1007090,867105,0.861
+2018,Fès-Meknès,FES,Autres,375864,307833,0.819
+2018,Souss-Massa,SOU,Salaires enseignants,16050210,11572202,0.721
+2018,Souss-Massa,SOU,Infrastructures,2880816,2169255,0.753
+2018,Souss-Massa,SOU,Équipements pédagogiques,1304319,1133453,0.869
+2018,Souss-Massa,SOU,Appui social (cartables),1087422,1073285,0.987
+2018,Souss-Massa,SOU,Restauration scolaire,835026,809975,0.97
+2018,Souss-Massa,SOU,Formation continue,295177,273334,0.926
+2018,Souss-Massa,SOU,Transport scolaire,578829,526735,0.91
+2018,Souss-Massa,SOU,Numérique & TIC,561075,481963,0.859
+2018,Souss-Massa,SOU,Autres,290386,223307,0.769
+2018,Tanger-Tétouan-Al Hoceïma,TAN,Salaires enseignants,20955887,20725372,0.989
+2018,Tanger-Tétouan-Al Hoceïma,TAN,Infrastructures,3942294,3717583,0.943
+2018,Tanger-Tétouan-Al Hoceïma,TAN,Équipements pédagogiques,1234368,1019588,0.826
+2018,Tanger-Tétouan-Al Hoceïma,TAN,Appui social (cartables),1283062,1193247,0.93
+2018,Tanger-Tétouan-Al Hoceïma,TAN,Restauration scolaire,902608,701326,0.777
+2018,Tanger-Tétouan-Al Hoceïma,TAN,Formation continue,510488,428810,0.84
+2018,Tanger-Tétouan-Al Hoceïma,TAN,Transport scolaire,599261,499184,0.833
+2018,Tanger-Tétouan-Al Hoceïma,TAN,Numérique & TIC,613404,474161,0.773
+2018,Tanger-Tétouan-Al Hoceïma,TAN,Autres,346368,290256,0.838
+2018,Oriental,ORI,Salaires enseignants,14189828,10997116,0.775
+2018,Oriental,ORI,Infrastructures,3125893,3075878,0.984
+2018,Oriental,ORI,Équipements pédagogiques,853407,726249,0.851
+2018,Oriental,ORI,Appui social (cartables),796403,681721,0.856
+2018,Oriental,ORI,Restauration scolaire,656525,646020,0.984
+2018,Oriental,ORI,Formation continue,237727,197314,0.83
+2018,Oriental,ORI,Transport scolaire,445942,440145,0.987
+2018,Oriental,ORI,Numérique & TIC,441436,424662,0.962
+2018,Oriental,ORI,Autres,227997,174417,0.765
+2018,Béni Mellal-Khénifra,BMK,Salaires enseignants,12877658,9735510,0.756
+2018,Béni Mellal-Khénifra,BMK,Infrastructures,2922506,2659480,0.91
+2018,Béni Mellal-Khénifra,BMK,Équipements pédagogiques,1148454,1093328,0.952
+2018,Béni Mellal-Khénifra,BMK,Appui social (cartables),996088,885522,0.889
+2018,Béni Mellal-Khénifra,BMK,Restauration scolaire,676688,651651,0.963
+2018,Béni Mellal-Khénifra,BMK,Formation continue,342787,338673,0.988
+2018,Béni Mellal-Khénifra,BMK,Transport scolaire,540619,420601,0.778
+2018,Béni Mellal-Khénifra,BMK,Numérique & TIC,536301,433868,0.809
+2018,Béni Mellal-Khénifra,BMK,Autres,221239,195354,0.883
+2018,Drâa-Tafilalet,DRA,Salaires enseignants,11280364,8990450,0.797
+2018,Drâa-Tafilalet,DRA,Infrastructures,1918635,1699911,0.886
+2018,Drâa-Tafilalet,DRA,Équipements pédagogiques,582564,471294,0.809
+2018,Drâa-Tafilalet,DRA,Appui social (cartables),599459,586271,0.978
+2018,Drâa-Tafilalet,DRA,Restauration scolaire,470081,392048,0.834
+2018,Drâa-Tafilalet,DRA,Formation continue,182504,152025,0.833
+2018,Drâa-Tafilalet,DRA,Transport scolaire,273668,263815,0.964
+2018,Drâa-Tafilalet,DRA,Numérique & TIC,283187,279789,0.988
+2018,Drâa-Tafilalet,DRA,Autres,154966,150627,0.972
+2018,Laâyoune-Sakia El Hamra,LAA,Salaires enseignants,2192160,1661657,0.758
+2018,Laâyoune-Sakia El Hamra,LAA,Infrastructures,420187,315981,0.752
+2018,Laâyoune-Sakia El Hamra,LAA,Équipements pédagogiques,166760,135076,0.81
+2018,Laâyoune-Sakia El Hamra,LAA,Appui social (cartables),127404,112625,0.884
+2018,Laâyoune-Sakia El Hamra,LAA,Restauration scolaire,115989,89080,0.768
+2018,Laâyoune-Sakia El Hamra,LAA,Formation continue,42729,41576,0.973
+2018,Laâyoune-Sakia El Hamra,LAA,Transport scolaire,67904,55274,0.814
+2018,Laâyoune-Sakia El Hamra,LAA,Numérique & TIC,71661,57902,0.808
+2018,Laâyoune-Sakia El Hamra,LAA,Autres,31838,24292,0.763
+2018,Guelmim-Oued Noun,GUE,Salaires enseignants,2728194,2193468,0.804
+2018,Guelmim-Oued Noun,GUE,Infrastructures,569869,466723,0.819
+2018,Guelmim-Oued Noun,GUE,Équipements pédagogiques,167513,148416,0.886
+2018,Guelmim-Oued Noun,GUE,Appui social (cartables),138725,119997,0.865
+2018,Guelmim-Oued Noun,GUE,Restauration scolaire,117533,111891,0.952
+2018,Guelmim-Oued Noun,GUE,Formation continue,56064,47486,0.847
+2018,Guelmim-Oued Noun,GUE,Transport scolaire,80518,73191,0.909
+2018,Guelmim-Oued Noun,GUE,Numérique & TIC,75888,65719,0.866
+2018,Guelmim-Oued Noun,GUE,Autres,36469,35229,0.966
+2018,Dakhla-Oued Eddahab,DAK,Salaires enseignants,911082,850950,0.934
+2018,Dakhla-Oued Eddahab,DAK,Infrastructures,187204,179903,0.961
+2018,Dakhla-Oued Eddahab,DAK,Équipements pédagogiques,61357,52215,0.851
+2018,Dakhla-Oued Eddahab,DAK,Appui social (cartables),54807,40447,0.738
+2018,Dakhla-Oued Eddahab,DAK,Restauration scolaire,38002,36444,0.959
+2018,Dakhla-Oued Eddahab,DAK,Formation continue,20012,15649,0.782
+2018,Dakhla-Oued Eddahab,DAK,Transport scolaire,30232,24397,0.807
+2018,Dakhla-Oued Eddahab,DAK,Numérique & TIC,26567,21519,0.81
+2018,Dakhla-Oued Eddahab,DAK,Autres,13495,13265,0.983
+2019,Casablanca-Settat,CAS,Salaires enseignants,48702180,38815637,0.797
+2019,Casablanca-Settat,CAS,Infrastructures,9016296,7871226,0.873
+2019,Casablanca-Settat,CAS,Équipements pédagogiques,2816394,2785414,0.989
+2019,Casablanca-Settat,CAS,Appui social (cartables),2798518,2748145,0.982
+2019,Casablanca-Settat,CAS,Restauration scolaire,2294441,1684120,0.734
+2019,Casablanca-Settat,CAS,Formation continue,866728,787856,0.909
+2019,Casablanca-Settat,CAS,Transport scolaire,1172202,901423,0.769
+2019,Casablanca-Settat,CAS,Numérique & TIC,1335788,1315751,0.985
+2019,Casablanca-Settat,CAS,Autres,611771,604430,0.988
+2019,Rabat-Salé-Kénitra,RAB,Salaires enseignants,25594370,25082483,0.98
+2019,Rabat-Salé-Kénitra,RAB,Infrastructures,5530869,4529781,0.819
+2019,Rabat-Salé-Kénitra,RAB,Équipements pédagogiques,2117879,1804432,0.852
+2019,Rabat-Salé-Kénitra,RAB,Appui social (cartables),1705052,1244688,0.73
+2019,Rabat-Salé-Kénitra,RAB,Restauration scolaire,1346574,1232115,0.915
+2019,Rabat-Salé-Kénitra,RAB,Formation continue,524312,435703,0.831
+2019,Rabat-Salé-Kénitra,RAB,Transport scolaire,880965,649271,0.737
+2019,Rabat-Salé-Kénitra,RAB,Numérique & TIC,1054685,904920,0.858
+2019,Rabat-Salé-Kénitra,RAB,Autres,426516,353582,0.829
+2019,Marrakech-Safi,MAR,Salaires enseignants,30062525,24140208,0.803
+2019,Marrakech-Safi,MAR,Infrastructures,5750306,5209777,0.906
+2019,Marrakech-Safi,MAR,Équipements pédagogiques,1570035,1405181,0.895
+2019,Marrakech-Safi,MAR,Appui social (cartables),1660526,1534326,0.924
+2019,Marrakech-Safi,MAR,Restauration scolaire,1102462,924966,0.839
+2019,Marrakech-Safi,MAR,Formation continue,581893,507411,0.872
+2019,Marrakech-Safi,MAR,Transport scolaire,974555,725069,0.744
+2019,Marrakech-Safi,MAR,Numérique & TIC,836777,651849,0.779
+2019,Marrakech-Safi,MAR,Autres,469829,462312,0.984
+2019,Fès-Meknès,FES,Salaires enseignants,27180336,21309383,0.784
+2019,Fès-Meknès,FES,Infrastructures,5922962,5028595,0.849
+2019,Fès-Meknès,FES,Équipements pédagogiques,1639455,1373863,0.838
+2019,Fès-Meknès,FES,Appui social (cartables),1390850,1052873,0.757
+2019,Fès-Meknès,FES,Restauration scolaire,1310839,1126010,0.859
+2019,Fès-Meknès,FES,Formation continue,530221,405619,0.765
+2019,Fès-Meknès,FES,Transport scolaire,735686,620184,0.843
+2019,Fès-Meknès,FES,Numérique & TIC,857085,685668,0.8
+2019,Fès-Meknès,FES,Autres,390839,307981,0.788
+2019,Souss-Massa,SOU,Salaires enseignants,14277780,12336002,0.864
+2019,Souss-Massa,SOU,Infrastructures,2919054,2344000,0.803
+2019,Souss-Massa,SOU,Équipements pédagogiques,1033482,760643,0.736
+2019,Souss-Massa,SOU,Appui social (cartables),1091314,806481,0.739
+2019,Souss-Massa,SOU,Restauration scolaire,826345,787507,0.953
+2019,Souss-Massa,SOU,Formation continue,356876,326184,0.914
+2019,Souss-Massa,SOU,Transport scolaire,574559,524572,0.913
+2019,Souss-Massa,SOU,Numérique & TIC,532361,408853,0.768
+2019,Souss-Massa,SOU,Autres,250160,201128,0.804
+2019,Tanger-Tétouan-Al Hoceïma,TAN,Salaires enseignants,21384650,15696333,0.734
+2019,Tanger-Tétouan-Al Hoceïma,TAN,Infrastructures,4367221,3777646,0.865
+2019,Tanger-Tétouan-Al Hoceïma,TAN,Équipements pédagogiques,1549177,1203710,0.777
+2019,Tanger-Tétouan-Al Hoceïma,TAN,Appui social (cartables),1373485,1172956,0.854
+2019,Tanger-Tétouan-Al Hoceïma,TAN,Restauration scolaire,876208,684318,0.781
+2019,Tanger-Tétouan-Al Hoceïma,TAN,Formation continue,480468,463172,0.964
+2019,Tanger-Tétouan-Al Hoceïma,TAN,Transport scolaire,572722,544086,0.95
+2019,Tanger-Tétouan-Al Hoceïma,TAN,Numérique & TIC,801762,684705,0.854
+2019,Tanger-Tétouan-Al Hoceïma,TAN,Autres,300298,286485,0.954
+2019,Oriental,ORI,Salaires enseignants,13347637,11265406,0.844
+2019,Oriental,ORI,Infrastructures,2841594,2523336,0.888
+2019,Oriental,ORI,Équipements pédagogiques,792384,781290,0.986
+2019,Oriental,ORI,Appui social (cartables),877058,644637,0.735
+2019,Oriental,ORI,Restauration scolaire,687017,563354,0.82
+2019,Oriental,ORI,Formation continue,253296,225940,0.892
+2019,Oriental,ORI,Transport scolaire,461065,334272,0.725
+2019,Oriental,ORI,Numérique & TIC,453839,369879,0.815
+2019,Oriental,ORI,Autres,181232,163834,0.904
+2019,Béni Mellal-Khénifra,BMK,Salaires enseignants,16537707,14668946,0.887
+2019,Béni Mellal-Khénifra,BMK,Infrastructures,2908434,2757196,0.948
+2019,Béni Mellal-Khénifra,BMK,Équipements pédagogiques,1129968,1048610,0.928
+2019,Béni Mellal-Khénifra,BMK,Appui social (cartables),1043399,979751,0.939
+2019,Béni Mellal-Khénifra,BMK,Restauration scolaire,629932,479378,0.761
+2019,Béni Mellal-Khénifra,BMK,Formation continue,335764,258202,0.769
+2019,Béni Mellal-Khénifra,BMK,Transport scolaire,426471,326250,0.765
+2019,Béni Mellal-Khénifra,BMK,Numérique & TIC,507130,449318,0.886
+2019,Béni Mellal-Khénifra,BMK,Autres,203078,172413,0.849
+2019,Drâa-Tafilalet,DRA,Salaires enseignants,9613241,7075345,0.736
+2019,Drâa-Tafilalet,DRA,Infrastructures,1810151,1348562,0.745
+2019,Drâa-Tafilalet,DRA,Équipements pédagogiques,742389,655529,0.883
+2019,Drâa-Tafilalet,DRA,Appui social (cartables),656133,534748,0.815
+2019,Drâa-Tafilalet,DRA,Restauration scolaire,443197,356774,0.805
+2019,Drâa-Tafilalet,DRA,Formation continue,232184,171584,0.739
+2019,Drâa-Tafilalet,DRA,Transport scolaire,262643,213266,0.812
+2019,Drâa-Tafilalet,DRA,Numérique & TIC,297295,282728,0.951
+2019,Drâa-Tafilalet,DRA,Autres,150158,129736,0.864
+2019,Laâyoune-Sakia El Hamra,LAA,Salaires enseignants,2127865,1595899,0.75
+2019,Laâyoune-Sakia El Hamra,LAA,Infrastructures,414451,318713,0.769
+2019,Laâyoune-Sakia El Hamra,LAA,Équipements pédagogiques,128778,99674,0.774
+2019,Laâyoune-Sakia El Hamra,LAA,Appui social (cartables),108830,84017,0.772
+2019,Laâyoune-Sakia El Hamra,LAA,Restauration scolaire,94877,80741,0.851
+2019,Laâyoune-Sakia El Hamra,LAA,Formation continue,40307,34059,0.845
+2019,Laâyoune-Sakia El Hamra,LAA,Transport scolaire,59522,47141,0.792
+2019,Laâyoune-Sakia El Hamra,LAA,Numérique & TIC,65001,50961,0.784
+2019,Laâyoune-Sakia El Hamra,LAA,Autres,36497,29015,0.795
+2019,Guelmim-Oued Noun,GUE,Salaires enseignants,2744515,2083087,0.759
+2019,Guelmim-Oued Noun,GUE,Infrastructures,567163,511581,0.902
+2019,Guelmim-Oued Noun,GUE,Équipements pédagogiques,153208,148305,0.968
+2019,Guelmim-Oued Noun,GUE,Appui social (cartables),146445,113788,0.777
+2019,Guelmim-Oued Noun,GUE,Restauration scolaire,112791,90796,0.805
+2019,Guelmim-Oued Noun,GUE,Formation continue,57099,52359,0.917
+2019,Guelmim-Oued Noun,GUE,Transport scolaire,91357,74273,0.813
+2019,Guelmim-Oued Noun,GUE,Numérique & TIC,80288,76916,0.958
+2019,Guelmim-Oued Noun,GUE,Autres,35036,28274,0.807
+2019,Dakhla-Oued Eddahab,DAK,Salaires enseignants,885497,651726,0.736
+2019,Dakhla-Oued Eddahab,DAK,Infrastructures,200169,156532,0.782
+2019,Dakhla-Oued Eddahab,DAK,Équipements pédagogiques,48129,46540,0.967
+2019,Dakhla-Oued Eddahab,DAK,Appui social (cartables),54243,51585,0.951
+2019,Dakhla-Oued Eddahab,DAK,Restauration scolaire,37796,34394,0.91
+2019,Dakhla-Oued Eddahab,DAK,Formation continue,19737,14566,0.738
+2019,Dakhla-Oued Eddahab,DAK,Transport scolaire,28541,23061,0.808
+2019,Dakhla-Oued Eddahab,DAK,Numérique & TIC,29966,22384,0.747
+2019,Dakhla-Oued Eddahab,DAK,Autres,12016,10658,0.887
+2020,Casablanca-Settat,CAS,Salaires enseignants,48157297,37803478,0.785
+2020,Casablanca-Settat,CAS,Infrastructures,8363394,6096914,0.729
+2020,Casablanca-Settat,CAS,Équipements pédagogiques,2766387,2168848,0.784
+2020,Casablanca-Settat,CAS,Appui social (cartables),2478465,2062083,0.832
+2020,Casablanca-Settat,CAS,Restauration scolaire,1697739,1478731,0.871
+2020,Casablanca-Settat,CAS,Formation continue,790526,674319,0.853
+2020,Casablanca-Settat,CAS,Transport scolaire,1209934,897771,0.742
+2020,Casablanca-Settat,CAS,Numérique & TIC,1401202,1139177,0.813
+2020,Casablanca-Settat,CAS,Autres,681890,664843,0.975
+2020,Rabat-Salé-Kénitra,RAB,Salaires enseignants,26839120,23376874,0.871
+2020,Rabat-Salé-Kénitra,RAB,Infrastructures,5040118,4027054,0.799
+2020,Rabat-Salé-Kénitra,RAB,Équipements pédagogiques,1723985,1477455,0.857
+2020,Rabat-Salé-Kénitra,RAB,Appui social (cartables),1854535,1798899,0.97
+2020,Rabat-Salé-Kénitra,RAB,Restauration scolaire,1516612,1411965,0.931
+2020,Rabat-Salé-Kénitra,RAB,Formation continue,590599,493150,0.835
+2020,Rabat-Salé-Kénitra,RAB,Transport scolaire,893155,809199,0.906
+2020,Rabat-Salé-Kénitra,RAB,Numérique & TIC,998272,789633,0.791
+2020,Rabat-Salé-Kénitra,RAB,Autres,425787,358513,0.842
+2020,Marrakech-Safi,MAR,Salaires enseignants,26446813,19993791,0.756
+2020,Marrakech-Safi,MAR,Infrastructures,6100680,5356397,0.878
+2020,Marrakech-Safi,MAR,Équipements pédagogiques,2033991,2013651,0.99
+2020,Marrakech-Safi,MAR,Appui social (cartables),1701658,1352818,0.795
+2020,Marrakech-Safi,MAR,Restauration scolaire,1155553,1098931,0.951
+2020,Marrakech-Safi,MAR,Formation continue,644893,573955,0.89
+2020,Marrakech-Safi,MAR,Transport scolaire,800598,734949,0.918
+2020,Marrakech-Safi,MAR,Numérique & TIC,1053801,1031671,0.979
+2020,Marrakech-Safi,MAR,Autres,432722,339254,0.784
+2020,Fès-Meknès,FES,Salaires enseignants,21091244,18054105,0.856
+2020,Fès-Meknès,FES,Infrastructures,4538435,4483974,0.988
+2020,Fès-Meknès,FES,Équipements pédagogiques,1931879,1684598,0.872
+2020,Fès-Meknès,FES,Appui social (cartables),1714391,1597812,0.932
+2020,Fès-Meknès,FES,Restauration scolaire,1018464,740423,0.727
+2020,Fès-Meknès,FES,Formation continue,556409,450691,0.81
+2020,Fès-Meknès,FES,Transport scolaire,751027,619597,0.825
+2020,Fès-Meknès,FES,Numérique & TIC,831702,637084,0.766
+2020,Fès-Meknès,FES,Autres,408394,294452,0.721
+2020,Souss-Massa,SOU,Salaires enseignants,16393735,15967498,0.974
+2020,Souss-Massa,SOU,Infrastructures,3356797,2715649,0.809
+2020,Souss-Massa,SOU,Équipements pédagogiques,1156124,1098317,0.95
+2020,Souss-Massa,SOU,Appui social (cartables),1099300,987171,0.898
+2020,Souss-Massa,SOU,Restauration scolaire,825222,748476,0.907
+2020,Souss-Massa,SOU,Formation continue,383346,377595,0.985
+2020,Souss-Massa,SOU,Transport scolaire,476258,408629,0.858
+2020,Souss-Massa,SOU,Numérique & TIC,598541,553650,0.925
+2020,Souss-Massa,SOU,Autres,221427,195963,0.885
+2020,Tanger-Tétouan-Al Hoceïma,TAN,Salaires enseignants,18317691,16797323,0.917
+2020,Tanger-Tétouan-Al Hoceïma,TAN,Infrastructures,4004660,3860492,0.964
+2020,Tanger-Tétouan-Al Hoceïma,TAN,Équipements pédagogiques,1281465,936751,0.731
+2020,Tanger-Tétouan-Al Hoceïma,TAN,Appui social (cartables),1270950,991341,0.78
+2020,Tanger-Tétouan-Al Hoceïma,TAN,Restauration scolaire,976737,732552,0.75
+2020,Tanger-Tétouan-Al Hoceïma,TAN,Formation continue,390658,360186,0.922
+2020,Tanger-Tétouan-Al Hoceïma,TAN,Transport scolaire,737775,723757,0.981
+2020,Tanger-Tétouan-Al Hoceïma,TAN,Numérique & TIC,817712,632092,0.773
+2020,Tanger-Tétouan-Al Hoceïma,TAN,Autres,324058,281282,0.868
+2020,Oriental,ORI,Salaires enseignants,14195518,11484174,0.809
+2020,Oriental,ORI,Infrastructures,2773967,2668556,0.962
+2020,Oriental,ORI,Équipements pédagogiques,874858,783873,0.896
+2020,Oriental,ORI,Appui social (cartables),871942,831833,0.954
+2020,Oriental,ORI,Restauration scolaire,720736,648662,0.9
+2020,Oriental,ORI,Formation continue,258805,244830,0.946
+2020,Oriental,ORI,Transport scolaire,429113,356593,0.831
+2020,Oriental,ORI,Numérique & TIC,394863,322603,0.817
+2020,Oriental,ORI,Autres,209030,161789,0.774
+2020,Béni Mellal-Khénifra,BMK,Salaires enseignants,16313267,15383411,0.943
+2020,Béni Mellal-Khénifra,BMK,Infrastructures,3608266,3023727,0.838
+2020,Béni Mellal-Khénifra,BMK,Équipements pédagogiques,975108,731331,0.75
+2020,Béni Mellal-Khénifra,BMK,Appui social (cartables),917456,705524,0.769
+2020,Béni Mellal-Khénifra,BMK,Restauration scolaire,823916,753059,0.914
+2020,Béni Mellal-Khénifra,BMK,Formation continue,344309,335013,0.973
+2020,Béni Mellal-Khénifra,BMK,Transport scolaire,386150,294246,0.762
+2020,Béni Mellal-Khénifra,BMK,Numérique & TIC,501279,444634,0.887
+2020,Béni Mellal-Khénifra,BMK,Autres,205949,165171,0.802
+2020,Drâa-Tafilalet,DRA,Salaires enseignants,9150914,7851484,0.858
+2020,Drâa-Tafilalet,DRA,Infrastructures,1764119,1571830,0.891
+2020,Drâa-Tafilalet,DRA,Équipements pédagogiques,722609,691537,0.957
+2020,Drâa-Tafilalet,DRA,Appui social (cartables),527733,510318,0.967
+2020,Drâa-Tafilalet,DRA,Restauration scolaire,421500,395367,0.938
+2020,Drâa-Tafilalet,DRA,Formation continue,189203,184283,0.974
+2020,Drâa-Tafilalet,DRA,Transport scolaire,249793,219568,0.879
+2020,Drâa-Tafilalet,DRA,Numérique & TIC,369396,333934,0.904
+2020,Drâa-Tafilalet,DRA,Autres,166043,124200,0.748
+2020,Laâyoune-Sakia El Hamra,LAA,Salaires enseignants,2367062,2262912,0.956
+2020,Laâyoune-Sakia El Hamra,LAA,Infrastructures,394694,340226,0.862
+2020,Laâyoune-Sakia El Hamra,LAA,Équipements pédagogiques,163732,138189,0.844
+2020,Laâyoune-Sakia El Hamra,LAA,Appui social (cartables),149501,147109,0.984
+2020,Laâyoune-Sakia El Hamra,LAA,Restauration scolaire,110619,88827,0.803
+2020,Laâyoune-Sakia El Hamra,LAA,Formation continue,45231,40572,0.897
+2020,Laâyoune-Sakia El Hamra,LAA,Transport scolaire,68524,49954,0.729
+2020,Laâyoune-Sakia El Hamra,LAA,Numérique & TIC,63932,46926,0.734
+2020,Laâyoune-Sakia El Hamra,LAA,Autres,28128,21321,0.758
+2020,Guelmim-Oued Noun,GUE,Salaires enseignants,2458163,2266427,0.922
+2020,Guelmim-Oued Noun,GUE,Infrastructures,487318,434687,0.892
+2020,Guelmim-Oued Noun,GUE,Équipements pédagogiques,154727,123936,0.801
+2020,Guelmim-Oued Noun,GUE,Appui social (cartables),160790,148570,0.924
+2020,Guelmim-Oued Noun,GUE,Restauration scolaire,122481,94800,0.774
+2020,Guelmim-Oued Noun,GUE,Formation continue,61785,53567,0.867
+2020,Guelmim-Oued Noun,GUE,Transport scolaire,88475,72992,0.825
+2020,Guelmim-Oued Noun,GUE,Numérique & TIC,91328,67856,0.743
+2020,Guelmim-Oued Noun,GUE,Autres,41924,37564,0.896
+2020,Dakhla-Oued Eddahab,DAK,Salaires enseignants,920385,728945,0.792
+2020,Dakhla-Oued Eddahab,DAK,Infrastructures,193411,187802,0.971
+2020,Dakhla-Oued Eddahab,DAK,Équipements pédagogiques,60268,47973,0.796
+2020,Dakhla-Oued Eddahab,DAK,Appui social (cartables),47304,35715,0.755
+2020,Dakhla-Oued Eddahab,DAK,Restauration scolaire,38175,30044,0.787
+2020,Dakhla-Oued Eddahab,DAK,Formation continue,17582,16492,0.938
+2020,Dakhla-Oued Eddahab,DAK,Transport scolaire,22806,22168,0.972
+2020,Dakhla-Oued Eddahab,DAK,Numérique & TIC,30704,28432,0.926
+2020,Dakhla-Oued Eddahab,DAK,Autres,11019,10832,0.983
+2021,Casablanca-Settat,CAS,Salaires enseignants,43548396,36841943,0.846
+2021,Casablanca-Settat,CAS,Infrastructures,9475004,8859129,0.935
+2021,Casablanca-Settat,CAS,Équipements pédagogiques,2539110,2214104,0.872
+2021,Casablanca-Settat,CAS,Appui social (cartables),2147797,1954495,0.91
+2021,Casablanca-Settat,CAS,Restauration scolaire,2321575,1822436,0.785
+2021,Casablanca-Settat,CAS,Formation continue,859445,711620,0.828
+2021,Casablanca-Settat,CAS,Transport scolaire,1132767,926604,0.818
+2021,Casablanca-Settat,CAS,Numérique & TIC,1289297,1061091,0.823
+2021,Casablanca-Settat,CAS,Autres,613980,540302,0.88
+2021,Rabat-Salé-Kénitra,RAB,Salaires enseignants,30615637,22410646,0.732
+2021,Rabat-Salé-Kénitra,RAB,Infrastructures,6528156,6436762,0.986
+2021,Rabat-Salé-Kénitra,RAB,Équipements pédagogiques,2037874,2007306,0.985
+2021,Rabat-Salé-Kénitra,RAB,Appui social (cartables),1459505,1364637,0.935
+2021,Rabat-Salé-Kénitra,RAB,Restauration scolaire,1253898,1097160,0.875
+2021,Rabat-Salé-Kénitra,RAB,Formation continue,592651,541683,0.914
+2021,Rabat-Salé-Kénitra,RAB,Transport scolaire,705680,550430,0.78
+2021,Rabat-Salé-Kénitra,RAB,Numérique & TIC,874222,695006,0.795
+2021,Rabat-Salé-Kénitra,RAB,Autres,370941,308994,0.833
+2021,Marrakech-Safi,MAR,Salaires enseignants,26998904,22652081,0.839
+2021,Marrakech-Safi,MAR,Infrastructures,5013410,4863008,0.97
+2021,Marrakech-Safi,MAR,Équipements pédagogiques,1755765,1524004,0.868
+2021,Marrakech-Safi,MAR,Appui social (cartables),1605871,1339297,0.834
+2021,Marrakech-Safi,MAR,Restauration scolaire,1154449,1072483,0.929
+2021,Marrakech-Safi,MAR,Formation continue,639980,602861,0.942
+2021,Marrakech-Safi,MAR,Transport scolaire,783712,605809,0.773
+2021,Marrakech-Safi,MAR,Numérique & TIC,900324,876016,0.973
+2021,Marrakech-Safi,MAR,Autres,415181,371172,0.894
+2021,Fès-Meknès,FES,Salaires enseignants,24356388,20678574,0.849
+2021,Fès-Meknès,FES,Infrastructures,5188076,4798970,0.925
+2021,Fès-Meknès,FES,Équipements pédagogiques,1494416,1445100,0.967
+2021,Fès-Meknès,FES,Appui social (cartables),1380264,1193928,0.865
+2021,Fès-Meknès,FES,Restauration scolaire,1292347,1050678,0.813
+2021,Fès-Meknès,FES,Formation continue,554714,530306,0.956
+2021,Fès-Meknès,FES,Transport scolaire,759361,552814,0.728
+2021,Fès-Meknès,FES,Numérique & TIC,1015994,795523,0.783
+2021,Fès-Meknès,FES,Autres,397166,372939,0.939
+2021,Souss-Massa,SOU,Salaires enseignants,15670707,11659006,0.744
+2021,Souss-Massa,SOU,Infrastructures,3932110,3558559,0.905
+2021,Souss-Massa,SOU,Équipements pédagogiques,1011871,934968,0.924
+2021,Souss-Massa,SOU,Appui social (cartables),900948,875721,0.972
+2021,Souss-Massa,SOU,Restauration scolaire,761656,677112,0.889
+2021,Souss-Massa,SOU,Formation continue,303212,228318,0.753
+2021,Souss-Massa,SOU,Transport scolaire,580289,521679,0.899
+2021,Souss-Massa,SOU,Numérique & TIC,508108,485751,0.956
+2021,Souss-Massa,SOU,Autres,265182,192257,0.725
+2021,Tanger-Tétouan-Al Hoceïma,TAN,Salaires enseignants,19039656,15136527,0.795
+2021,Tanger-Tétouan-Al Hoceïma,TAN,Infrastructures,4221539,3208370,0.76
+2021,Tanger-Tétouan-Al Hoceïma,TAN,Équipements pédagogiques,1408052,1151786,0.818
+2021,Tanger-Tétouan-Al Hoceïma,TAN,Appui social (cartables),1360098,1228169,0.903
+2021,Tanger-Tétouan-Al Hoceïma,TAN,Restauration scolaire,1076949,1022025,0.949
+2021,Tanger-Tétouan-Al Hoceïma,TAN,Formation continue,469221,399307,0.851
+2021,Tanger-Tétouan-Al Hoceïma,TAN,Transport scolaire,613616,581708,0.948
+2021,Tanger-Tétouan-Al Hoceïma,TAN,Numérique & TIC,753045,710121,0.943
+2021,Tanger-Tétouan-Al Hoceïma,TAN,Autres,283069,254479,0.899
+2021,Oriental,ORI,Salaires enseignants,12017522,11308488,0.941
+2021,Oriental,ORI,Infrastructures,3305703,2799931,0.847
+2021,Oriental,ORI,Équipements pédagogiques,897942,840474,0.936
+2021,Oriental,ORI,Appui social (cartables),900810,864778,0.96
+2021,Oriental,ORI,Restauration scolaire,726809,694103,0.955
+2021,Oriental,ORI,Formation continue,305757,273959,0.896
+2021,Oriental,ORI,Transport scolaire,354739,264281,0.745
+2021,Oriental,ORI,Numérique & TIC,532936,503092,0.944
+2021,Oriental,ORI,Autres,220301,197610,0.897
+2021,Béni Mellal-Khénifra,BMK,Salaires enseignants,17332247,14125781,0.815
+2021,Béni Mellal-Khénifra,BMK,Infrastructures,3059449,2719850,0.889
+2021,Béni Mellal-Khénifra,BMK,Équipements pédagogiques,958317,931484,0.972
+2021,Béni Mellal-Khénifra,BMK,Appui social (cartables),859320,850727,0.99
+2021,Béni Mellal-Khénifra,BMK,Restauration scolaire,743232,681543,0.917
+2021,Béni Mellal-Khénifra,BMK,Formation continue,337258,264748,0.785
+2021,Béni Mellal-Khénifra,BMK,Transport scolaire,498764,477816,0.958
+2021,Béni Mellal-Khénifra,BMK,Numérique & TIC,474976,368581,0.776
+2021,Béni Mellal-Khénifra,BMK,Autres,207575,186817,0.9
+2021,Drâa-Tafilalet,DRA,Salaires enseignants,8682628,6451192,0.743
+2021,Drâa-Tafilalet,DRA,Infrastructures,2086393,1669114,0.8
+2021,Drâa-Tafilalet,DRA,Équipements pédagogiques,735629,563491,0.766
+2021,Drâa-Tafilalet,DRA,Appui social (cartables),578809,459574,0.794
+2021,Drâa-Tafilalet,DRA,Restauration scolaire,495865,451733,0.911
+2021,Drâa-Tafilalet,DRA,Formation continue,181290,150290,0.829
+2021,Drâa-Tafilalet,DRA,Transport scolaire,257590,189844,0.737
+2021,Drâa-Tafilalet,DRA,Numérique & TIC,341713,249450,0.73
+2021,Drâa-Tafilalet,DRA,Autres,164784,147482,0.895
+2021,Laâyoune-Sakia El Hamra,LAA,Salaires enseignants,2164940,2000405,0.924
+2021,Laâyoune-Sakia El Hamra,LAA,Infrastructures,381765,364585,0.955
+2021,Laâyoune-Sakia El Hamra,LAA,Équipements pédagogiques,125562,99068,0.789
+2021,Laâyoune-Sakia El Hamra,LAA,Appui social (cartables),141381,107025,0.757
+2021,Laâyoune-Sakia El Hamra,LAA,Restauration scolaire,93683,91810,0.98
+2021,Laâyoune-Sakia El Hamra,LAA,Formation continue,43492,40056,0.921
+2021,Laâyoune-Sakia El Hamra,LAA,Transport scolaire,76800,74189,0.966
+2021,Laâyoune-Sakia El Hamra,LAA,Numérique & TIC,71106,51481,0.724
+2021,Laâyoune-Sakia El Hamra,LAA,Autres,29419,24594,0.836
+2021,Guelmim-Oued Noun,GUE,Salaires enseignants,2368844,2181705,0.921
+2021,Guelmim-Oued Noun,GUE,Infrastructures,562272,425640,0.757
+2021,Guelmim-Oued Noun,GUE,Équipements pédagogiques,194367,159381,0.82
+2021,Guelmim-Oued Noun,GUE,Appui social (cartables),133357,112953,0.847
+2021,Guelmim-Oued Noun,GUE,Restauration scolaire,144389,139912,0.969
+2021,Guelmim-Oued Noun,GUE,Formation continue,53593,48770,0.91
+2021,Guelmim-Oued Noun,GUE,Transport scolaire,75829,59374,0.783
+2021,Guelmim-Oued Noun,GUE,Numérique & TIC,88702,74155,0.836
+2021,Guelmim-Oued Noun,GUE,Autres,35879,26443,0.737
+2021,Dakhla-Oued Eddahab,DAK,Salaires enseignants,821101,611720,0.745
+2021,Dakhla-Oued Eddahab,DAK,Infrastructures,181240,149161,0.823
+2021,Dakhla-Oued Eddahab,DAK,Équipements pédagogiques,63995,54139,0.846
+2021,Dakhla-Oued Eddahab,DAK,Appui social (cartables),43317,36949,0.853
+2021,Dakhla-Oued Eddahab,DAK,Restauration scolaire,45096,38377,0.851
+2021,Dakhla-Oued Eddahab,DAK,Formation continue,17359,17150,0.988
+2021,Dakhla-Oued Eddahab,DAK,Transport scolaire,29571,25993,0.879
+2021,Dakhla-Oued Eddahab,DAK,Numérique & TIC,29337,24966,0.851
+2021,Dakhla-Oued Eddahab,DAK,Autres,11708,8512,0.727
+2022,Casablanca-Settat,CAS,Salaires enseignants,48172580,45667606,0.948
+2022,Casablanca-Settat,CAS,Infrastructures,7363624,5537445,0.752
+2022,Casablanca-Settat,CAS,Équipements pédagogiques,2635642,2553937,0.969
+2022,Casablanca-Settat,CAS,Appui social (cartables),2790442,2756957,0.988
+2022,Casablanca-Settat,CAS,Restauration scolaire,1898848,1830490,0.964
+2022,Casablanca-Settat,CAS,Formation continue,764524,620793,0.812
+2022,Casablanca-Settat,CAS,Transport scolaire,1501677,1111241,0.74
+2022,Casablanca-Settat,CAS,Numérique & TIC,1442052,1232954,0.855
+2022,Casablanca-Settat,CAS,Autres,613703,536377,0.874
+2022,Rabat-Salé-Kénitra,RAB,Salaires enseignants,30175819,23627666,0.783
+2022,Rabat-Salé-Kénitra,RAB,Infrastructures,5590043,5332901,0.954
+2022,Rabat-Salé-Kénitra,RAB,Équipements pédagogiques,2065645,1726879,0.836
+2022,Rabat-Salé-Kénitra,RAB,Appui social (cartables),1587540,1400210,0.882
+2022,Rabat-Salé-Kénitra,RAB,Restauration scolaire,1416100,1346711,0.951
+2022,Rabat-Salé-Kénitra,RAB,Formation continue,604731,521883,0.863
+2022,Rabat-Salé-Kénitra,RAB,Transport scolaire,949099,810531,0.854
+2022,Rabat-Salé-Kénitra,RAB,Numérique & TIC,893219,790499,0.885
+2022,Rabat-Salé-Kénitra,RAB,Autres,435148,406864,0.935
+2022,Marrakech-Safi,MAR,Salaires enseignants,28358255,27422432,0.967
+2022,Marrakech-Safi,MAR,Infrastructures,6214342,4828544,0.777
+2022,Marrakech-Safi,MAR,Équipements pédagogiques,1662775,1479870,0.89
+2022,Marrakech-Safi,MAR,Appui social (cartables),1696785,1667940,0.983
+2022,Marrakech-Safi,MAR,Restauration scolaire,1207856,1002520,0.83
+2022,Marrakech-Safi,MAR,Formation continue,650662,596007,0.916
+2022,Marrakech-Safi,MAR,Transport scolaire,709741,665737,0.938
+2022,Marrakech-Safi,MAR,Numérique & TIC,856780,638301,0.745
+2022,Marrakech-Safi,MAR,Autres,395368,389438,0.985
+2022,Fès-Meknès,FES,Salaires enseignants,27098156,25418071,0.938
+2022,Fès-Meknès,FES,Infrastructures,5669740,5114105,0.902
+2022,Fès-Meknès,FES,Équipements pédagogiques,1883677,1753704,0.931
+2022,Fès-Meknès,FES,Appui social (cartables),1310071,1105700,0.844
+2022,Fès-Meknès,FES,Restauration scolaire,1402153,1041799,0.743
+2022,Fès-Meknès,FES,Formation continue,477025,464145,0.973
+2022,Fès-Meknès,FES,Transport scolaire,840210,665446,0.792
+2022,Fès-Meknès,FES,Numérique & TIC,801025,619192,0.773
+2022,Fès-Meknès,FES,Autres,389464,307287,0.789
+2022,Souss-Massa,SOU,Salaires enseignants,15576818,14299519,0.918
+2022,Souss-Massa,SOU,Infrastructures,3385936,2844186,0.84
+2022,Souss-Massa,SOU,Équipements pédagogiques,1193808,1091140,0.914
+2022,Souss-Massa,SOU,Appui social (cartables),1115061,1011360,0.907
+2022,Souss-Massa,SOU,Restauration scolaire,850918,631381,0.742
+2022,Souss-Massa,SOU,Formation continue,365011,267918,0.734
+2022,Souss-Massa,SOU,Transport scolaire,506080,426119,0.842
+2022,Souss-Massa,SOU,Numérique & TIC,541360,511044,0.944
+2022,Souss-Massa,SOU,Autres,289622,268479,0.927
+2022,Tanger-Tétouan-Al Hoceïma,TAN,Salaires enseignants,18391788,16828486,0.915
+2022,Tanger-Tétouan-Al Hoceïma,TAN,Infrastructures,4692666,4054464,0.864
+2022,Tanger-Tétouan-Al Hoceïma,TAN,Équipements pédagogiques,1642328,1476453,0.899
+2022,Tanger-Tétouan-Al Hoceïma,TAN,Appui social (cartables),1239586,948283,0.765
+2022,Tanger-Tétouan-Al Hoceïma,TAN,Restauration scolaire,928312,739865,0.797
+2022,Tanger-Tétouan-Al Hoceïma,TAN,Formation continue,474454,414673,0.874
+2022,Tanger-Tétouan-Al Hoceïma,TAN,Transport scolaire,716892,686066,0.957
+2022,Tanger-Tétouan-Al Hoceïma,TAN,Numérique & TIC,633963,563593,0.889
+2022,Tanger-Tétouan-Al Hoceïma,TAN,Autres,356557,311988,0.875
+2022,Oriental,ORI,Salaires enseignants,12468145,9263831,0.743
+2022,Oriental,ORI,Infrastructures,2756136,2654159,0.963
+2022,Oriental,ORI,Équipements pédagogiques,1038733,808135,0.778
+2022,Oriental,ORI,Appui social (cartables),901551,792463,0.879
+2022,Oriental,ORI,Restauration scolaire,674161,632363,0.938
+2022,Oriental,ORI,Formation continue,255505,212836,0.833
+2022,Oriental,ORI,Transport scolaire,425874,363270,0.853
+2022,Oriental,ORI,Numérique & TIC,544294,532319,0.978
+2022,Oriental,ORI,Autres,203906,173932,0.853
+2022,Béni Mellal-Khénifra,BMK,Salaires enseignants,14848963,12829504,0.864
+2022,Béni Mellal-Khénifra,BMK,Infrastructures,3522005,2997226,0.851
+2022,Béni Mellal-Khénifra,BMK,Équipements pédagogiques,1143382,1087356,0.951
+2022,Béni Mellal-Khénifra,BMK,Appui social (cartables),843808,617668,0.732
+2022,Béni Mellal-Khénifra,BMK,Restauration scolaire,661853,485800,0.734
+2022,Béni Mellal-Khénifra,BMK,Formation continue,362543,275170,0.759
+2022,Béni Mellal-Khénifra,BMK,Transport scolaire,437983,328487,0.75
+2022,Béni Mellal-Khénifra,BMK,Numérique & TIC,451598,358117,0.793
+2022,Béni Mellal-Khénifra,BMK,Autres,221585,185688,0.838
+2022,Drâa-Tafilalet,DRA,Salaires enseignants,8556759,6819737,0.797
+2022,Drâa-Tafilalet,DRA,Infrastructures,1931900,1742573,0.902
+2022,Drâa-Tafilalet,DRA,Équipements pédagogiques,744436,572471,0.769
+2022,Drâa-Tafilalet,DRA,Appui social (cartables),493712,435948,0.883
+2022,Drâa-Tafilalet,DRA,Restauration scolaire,531635,508243,0.956
+2022,Drâa-Tafilalet,DRA,Formation continue,224480,199338,0.888
+2022,Drâa-Tafilalet,DRA,Transport scolaire,262478,248304,0.946
+2022,Drâa-Tafilalet,DRA,Numérique & TIC,319416,230299,0.721
+2022,Drâa-Tafilalet,DRA,Autres,169365,122789,0.725
+2022,Laâyoune-Sakia El Hamra,LAA,Salaires enseignants,1895625,1603698,0.846
+2022,Laâyoune-Sakia El Hamra,LAA,Infrastructures,459067,333742,0.727
+2022,Laâyoune-Sakia El Hamra,LAA,Équipements pédagogiques,123472,108408,0.878
+2022,Laâyoune-Sakia El Hamra,LAA,Appui social (cartables),138115,102067,0.739
+2022,Laâyoune-Sakia El Hamra,LAA,Restauration scolaire,92762,90628,0.977
+2022,Laâyoune-Sakia El Hamra,LAA,Formation continue,50538,45029,0.891
+2022,Laâyoune-Sakia El Hamra,LAA,Transport scolaire,65149,60653,0.931
+2022,Laâyoune-Sakia El Hamra,LAA,Numérique & TIC,65865,64087,0.973
+2022,Laâyoune-Sakia El Hamra,LAA,Autres,38204,31098,0.814
+2022,Guelmim-Oued Noun,GUE,Salaires enseignants,2659308,2411992,0.907
+2022,Guelmim-Oued Noun,GUE,Infrastructures,492575,379776,0.771
+2022,Guelmim-Oued Noun,GUE,Équipements pédagogiques,160536,157004,0.978
+2022,Guelmim-Oued Noun,GUE,Appui social (cartables),160270,154821,0.966
+2022,Guelmim-Oued Noun,GUE,Restauration scolaire,123580,115176,0.932
+2022,Guelmim-Oued Noun,GUE,Formation continue,51497,38005,0.738
+2022,Guelmim-Oued Noun,GUE,Transport scolaire,79769,61900,0.776
+2022,Guelmim-Oued Noun,GUE,Numérique & TIC,83185,61640,0.741
+2022,Guelmim-Oued Noun,GUE,Autres,42630,31972,0.75
+2022,Dakhla-Oued Eddahab,DAK,Salaires enseignants,937757,801782,0.855
+2022,Dakhla-Oued Eddahab,DAK,Infrastructures,183955,138150,0.751
+2022,Dakhla-Oued Eddahab,DAK,Équipements pédagogiques,57802,45837,0.793
+2022,Dakhla-Oued Eddahab,DAK,Appui social (cartables),42795,31882,0.745
+2022,Dakhla-Oued Eddahab,DAK,Restauration scolaire,43244,32866,0.76
+2022,Dakhla-Oued Eddahab,DAK,Formation continue,19297,18082,0.937
+2022,Dakhla-Oued Eddahab,DAK,Transport scolaire,28785,28382,0.986
+2022,Dakhla-Oued Eddahab,DAK,Numérique & TIC,28239,20982,0.743
+2022,Dakhla-Oued Eddahab,DAK,Autres,14035,11270,0.803
+2023,Casablanca-Settat,CAS,Salaires enseignants,35603426,34784547,0.977
+2023,Casablanca-Settat,CAS,Infrastructures,9980438,9770849,0.979
+2023,Casablanca-Settat,CAS,Équipements pédagogiques,2671486,2113145,0.791
+2023,Casablanca-Settat,CAS,Appui social (cartables),2799855,2631864,0.94
+2023,Casablanca-Settat,CAS,Restauration scolaire,2234915,1948846,0.872
+2023,Casablanca-Settat,CAS,Formation continue,829512,693472,0.836
+2023,Casablanca-Settat,CAS,Transport scolaire,1258684,918839,0.73
+2023,Casablanca-Settat,CAS,Numérique & TIC,1451966,1360493,0.937
+2023,Casablanca-Settat,CAS,Autres,624156,458755,0.735
+2023,Rabat-Salé-Kénitra,RAB,Salaires enseignants,31317119,28749115,0.918
+2023,Rabat-Salé-Kénitra,RAB,Infrastructures,4692001,4171189,0.889
+2023,Rabat-Salé-Kénitra,RAB,Équipements pédagogiques,1777555,1356275,0.763
+2023,Rabat-Salé-Kénitra,RAB,Appui social (cartables),1656127,1349744,0.815
+2023,Rabat-Salé-Kénitra,RAB,Restauration scolaire,1460353,1261745,0.864
+2023,Rabat-Salé-Kénitra,RAB,Formation continue,494581,446606,0.903
+2023,Rabat-Salé-Kénitra,RAB,Transport scolaire,701136,628218,0.896
+2023,Rabat-Salé-Kénitra,RAB,Numérique & TIC,796669,619012,0.777
+2023,Rabat-Salé-Kénitra,RAB,Autres,399572,288091,0.721
+2023,Marrakech-Safi,MAR,Salaires enseignants,28194341,21061173,0.747
+2023,Marrakech-Safi,MAR,Infrastructures,5189783,4473593,0.862
+2023,Marrakech-Safi,MAR,Équipements pédagogiques,1576348,1248468,0.792
+2023,Marrakech-Safi,MAR,Appui social (cartables),1671718,1534637,0.918
+2023,Marrakech-Safi,MAR,Restauration scolaire,1246302,979593,0.786
+2023,Marrakech-Safi,MAR,Formation continue,534474,513095,0.96
+2023,Marrakech-Safi,MAR,Transport scolaire,854439,815990,0.955
+2023,Marrakech-Safi,MAR,Numérique & TIC,861531,653902,0.759
+2023,Marrakech-Safi,MAR,Autres,443351,353794,0.798
+2023,Fès-Meknès,FES,Salaires enseignants,24216454,19203648,0.793
+2023,Fès-Meknès,FES,Infrastructures,4537796,3507716,0.773
+2023,Fès-Meknès,FES,Équipements pédagogiques,1992537,1693657,0.85
+2023,Fès-Meknès,FES,Appui social (cartables),1514390,1266030,0.836
+2023,Fès-Meknès,FES,Restauration scolaire,1311594,1260442,0.961
+2023,Fès-Meknès,FES,Formation continue,522107,383226,0.734
+2023,Fès-Meknès,FES,Transport scolaire,660737,541804,0.82
+2023,Fès-Meknès,FES,Numérique & TIC,729684,616583,0.845
+2023,Fès-Meknès,FES,Autres,447015,379516,0.849
+2023,Souss-Massa,SOU,Salaires enseignants,18929380,14745987,0.779
+2023,Souss-Massa,SOU,Infrastructures,3111649,2928062,0.941
+2023,Souss-Massa,SOU,Équipements pédagogiques,1063771,827613,0.778
+2023,Souss-Massa,SOU,Appui social (cartables),1006147,791838,0.787
+2023,Souss-Massa,SOU,Restauration scolaire,816966,669095,0.819
+2023,Souss-Massa,SOU,Formation continue,339671,285324,0.84
+2023,Souss-Massa,SOU,Transport scolaire,426809,362360,0.849
+2023,Souss-Massa,SOU,Numérique & TIC,662812,528924,0.798
+2023,Souss-Massa,SOU,Autres,259004,227923,0.88
+2023,Tanger-Tétouan-Al Hoceïma,TAN,Salaires enseignants,18266081,15507903,0.849
+2023,Tanger-Tétouan-Al Hoceïma,TAN,Infrastructures,4252402,3703842,0.871
+2023,Tanger-Tétouan-Al Hoceïma,TAN,Équipements pédagogiques,1208273,1176858,0.974
+2023,Tanger-Tétouan-Al Hoceïma,TAN,Appui social (cartables),1097377,972276,0.886
+2023,Tanger-Tétouan-Al Hoceïma,TAN,Restauration scolaire,1005166,854391,0.85
+2023,Tanger-Tétouan-Al Hoceïma,TAN,Formation continue,383153,297710,0.777
+2023,Tanger-Tétouan-Al Hoceïma,TAN,Transport scolaire,765496,670574,0.876
+2023,Tanger-Tétouan-Al Hoceïma,TAN,Numérique & TIC,849885,656961,0.773
+2023,Tanger-Tétouan-Al Hoceïma,TAN,Autres,324305,288631,0.89
+2023,Oriental,ORI,Salaires enseignants,11721513,11123716,0.949
+2023,Oriental,ORI,Infrastructures,2600035,2535034,0.975
+2023,Oriental,ORI,Équipements pédagogiques,1077067,840112,0.78
+2023,Oriental,ORI,Appui social (cartables),784153,650847,0.83
+2023,Oriental,ORI,Restauration scolaire,652542,595118,0.912
+2023,Oriental,ORI,Formation continue,305828,248332,0.812
+2023,Oriental,ORI,Transport scolaire,359487,293701,0.817
+2023,Oriental,ORI,Numérique & TIC,413791,330205,0.798
+2023,Oriental,ORI,Autres,190865,164716,0.863
+2023,Béni Mellal-Khénifra,BMK,Salaires enseignants,16709216,13567883,0.812
+2023,Béni Mellal-Khénifra,BMK,Infrastructures,2798375,2633271,0.941
+2023,Béni Mellal-Khénifra,BMK,Équipements pédagogiques,995981,804752,0.808
+2023,Béni Mellal-Khénifra,BMK,Appui social (cartables),999716,856757,0.857
+2023,Béni Mellal-Khénifra,BMK,Restauration scolaire,760386,555842,0.731
+2023,Béni Mellal-Khénifra,BMK,Formation continue,259315,218602,0.843
+2023,Béni Mellal-Khénifra,BMK,Transport scolaire,473987,397201,0.838
+2023,Béni Mellal-Khénifra,BMK,Numérique & TIC,472915,347119,0.734
+2023,Béni Mellal-Khénifra,BMK,Autres,224617,209568,0.933
+2023,Drâa-Tafilalet,DRA,Salaires enseignants,9299482,8574122,0.922
+2023,Drâa-Tafilalet,DRA,Infrastructures,2318548,1952217,0.842
+2023,Drâa-Tafilalet,DRA,Équipements pédagogiques,700340,577080,0.824
+2023,Drâa-Tafilalet,DRA,Appui social (cartables),621992,466494,0.75
+2023,Drâa-Tafilalet,DRA,Restauration scolaire,403366,346895,0.86
+2023,Drâa-Tafilalet,DRA,Formation continue,178380,170709,0.957
+2023,Drâa-Tafilalet,DRA,Transport scolaire,321365,254842,0.793
+2023,Drâa-Tafilalet,DRA,Numérique & TIC,282238,242725,0.86
+2023,Drâa-Tafilalet,DRA,Autres,135385,132812,0.981
+2023,Laâyoune-Sakia El Hamra,LAA,Salaires enseignants,2427054,2361524,0.973
+2023,Laâyoune-Sakia El Hamra,LAA,Infrastructures,404494,309842,0.766
+2023,Laâyoune-Sakia El Hamra,LAA,Équipements pédagogiques,123290,111085,0.901
+2023,Laâyoune-Sakia El Hamra,LAA,Appui social (cartables),132539,99537,0.751
+2023,Laâyoune-Sakia El Hamra,LAA,Restauration scolaire,97106,76908,0.792
+2023,Laâyoune-Sakia El Hamra,LAA,Formation continue,50840,37876,0.745
+2023,Laâyoune-Sakia El Hamra,LAA,Transport scolaire,73590,69837,0.949
+2023,Laâyoune-Sakia El Hamra,LAA,Numérique & TIC,79909,57614,0.721
+2023,Laâyoune-Sakia El Hamra,LAA,Autres,29042,25412,0.875
+2023,Guelmim-Oued Noun,GUE,Salaires enseignants,2949162,2713229,0.92
+2023,Guelmim-Oued Noun,GUE,Infrastructures,530857,451228,0.85
+2023,Guelmim-Oued Noun,GUE,Équipements pédagogiques,159758,146179,0.915
+2023,Guelmim-Oued Noun,GUE,Appui social (cartables),176046,143125,0.813
+2023,Guelmim-Oued Noun,GUE,Restauration scolaire,131365,129526,0.986
+2023,Guelmim-Oued Noun,GUE,Formation continue,58184,48002,0.825
+2023,Guelmim-Oued Noun,GUE,Transport scolaire,82559,79092,0.958
+2023,Guelmim-Oued Noun,GUE,Numérique & TIC,92985,82570,0.888
+2023,Guelmim-Oued Noun,GUE,Autres,38688,32575,0.842
+2023,Dakhla-Oued Eddahab,DAK,Salaires enseignants,951957,821539,0.863
+2023,Dakhla-Oued Eddahab,DAK,Infrastructures,181128,139649,0.771
+2023,Dakhla-Oued Eddahab,DAK,Équipements pédagogiques,55095,49365,0.896
+2023,Dakhla-Oued Eddahab,DAK,Appui social (cartables),48852,43136,0.883
+2023,Dakhla-Oued Eddahab,DAK,Restauration scolaire,33820,29761,0.88
+2023,Dakhla-Oued Eddahab,DAK,Formation continue,19597,16912,0.863
+2023,Dakhla-Oued Eddahab,DAK,Transport scolaire,22850,18485,0.809
+2023,Dakhla-Oued Eddahab,DAK,Numérique & TIC,29014,22166,0.764
+2023,Dakhla-Oued Eddahab,DAK,Autres,11510,10797,0.938
