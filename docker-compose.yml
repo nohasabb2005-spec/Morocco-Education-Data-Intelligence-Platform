@@ -1,0 +1,58 @@
+services:
+
+  # ---------------- MINIO ----------------
+  minio:
+    image: minio/minio
+    container_name: education_minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+       MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+       MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    command: server /data --console-address ":9001"
+    networks:
+      - airflow-network
+
+  # ---------------- MINIO INIT ----------------
+  minio-init:
+    image: minio/mc
+    container_name: education_minio_init
+    depends_on:
+      - minio
+    networks:
+      - airflow-network
+    entrypoint: >
+      /bin/sh -c "
+      sleep 5;
+      mc alias set myminio http://minio:9000 nouha nouha123456;
+
+      mc mb myminio/education-bronze || true;
+      mc mb myminio/education-silver || true;
+      mc mb myminio/education-gold || true;
+
+      mc ls myminio;
+      exit 0;
+      "
+
+  # ---------------- POSTGRES ----------------
+  postgres:
+    image: postgres:13
+    container_name: education_postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - airflow-network
+
+volumes:
+  postgres_data:
+
+networks:
+  airflow-network:
+    driver: bridge
