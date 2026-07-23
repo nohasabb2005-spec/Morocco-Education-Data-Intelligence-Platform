@@ -1,52 +1,76 @@
 services:
 
-  # ---------------- MINIO ----------------
+  
+  # MinIO
+ 
   minio:
     image: minio/minio
     container_name: education_minio
+    restart: unless-stopped
+
     ports:
       - "9000:9000"
       - "9001:9001"
+
     environment:
-       MINIO_ROOT_USER: ${MINIO_ROOT_USER}
-       MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+
     command: server /data --console-address ":9001"
+
     networks:
       - airflow-network
 
-  # ---------------- MINIO INIT ----------------
+  
+  # MinIO Bucket Creation
+  
   minio-init:
     image: minio/mc
     container_name: education_minio_init
+
     depends_on:
       - minio
+
     networks:
       - airflow-network
+
     entrypoint: >
       /bin/sh -c "
-      sleep 5;
-      mc alias set myminio http://minio:9000 nouha nouha123456;
+      sleep 10;
 
-      mc mb myminio/education-bronze || true;
-      mc mb myminio/education-silver || true;
-      mc mb myminio/education-gold || true;
+      mc alias set myminio http://minio:9000 ${MINIO_ROOT_USER} ${MINIO_ROOT_PASSWORD};
+
+      mc mb myminio/${MINIO_BUCKET} || true;
 
       mc ls myminio;
+
       exit 0;
       "
 
-  # ---------------- POSTGRES ----------------
+  
+  # PostgreSQL
+ 
   postgres:
     image: postgres:13
     container_name: education_postgres
+
+    restart: unless-stopped
+
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
+
     ports:
       - "5432:5432"
+
     volumes:
+      # Données PostgreSQL
       - postgres_data:/var/lib/postgresql/data
+
+      # Exécute automatiquement les scripts SQL
+      - ./sql:/docker-entrypoint-initdb.d
+
     networks:
       - airflow-network
 

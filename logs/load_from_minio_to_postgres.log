@@ -1,0 +1,318 @@
+2026-07-23 10:49:44,668 | INFO | ================================================================================
+2026-07-23 10:49:44,672 | INFO | CHARGEMENT MINIO -> POSTGRESQL
+2026-07-23 10:49:44,683 | INFO | ================================================================================
+2026-07-23 10:49:44,686 | INFO | ================================================================================
+2026-07-23 10:49:44,691 | INFO | Lecture du fichier : ds1_eleves.csv
+2026-07-23 10:49:44,889 | INFO | Lignes : 15000
+2026-07-23 10:49:44,889 | INFO | Colonnes : 17
+2026-07-23 10:49:44,889 | INFO | Noms des colonnes : ['id_eleve', 'annee_scolaire', 'region', 'code_region', 'province', 'milieu', 'secteur', 'cycle', 'genre', 'age', 'redoublant', 'score_moyen', 'a_abandonne', 'motif_abandon', 'beneficiaire_bourse', 'acces_cantine', 'acces_internat']
+2026-07-23 10:49:44,895 | INFO | Types :
+id_eleve                   str
+annee_scolaire             str
+region                     str
+code_region                str
+province                   str
+milieu                     str
+secteur                    str
+cycle                      str
+genre                      str
+age                      int64
+redoublant               int64
+score_moyen            float64
+a_abandonne              int64
+motif_abandon              str
+beneficiaire_bourse      int64
+acces_cantine            int64
+acces_internat           int64
+dtype: object
+2026-07-23 10:49:44,910 | INFO | Valeurs nulles :
+id_eleve                   0
+annee_scolaire             0
+region                     0
+code_region                0
+province                   0
+milieu                     0
+secteur                    0
+cycle                      0
+genre                      0
+age                        0
+redoublant                 0
+score_moyen                0
+a_abandonne                0
+motif_abandon          13600
+beneficiaire_bourse        0
+acces_cantine              0
+acces_internat             0
+dtype: int64
+2026-07-23 10:49:53,322 | INFO | Table bronze.eleves chargée avec succès.
+2026-07-23 10:49:53,322 | INFO | ================================================================================
+2026-07-23 10:49:53,322 | INFO | Lecture du fichier : ds3_enseignants.csv
+2026-07-23 10:49:53,363 | INFO | Lignes : 8000
+2026-07-23 10:49:53,363 | INFO | Colonnes : 15
+2026-07-23 10:49:53,363 | INFO | Noms des colonnes : ['id_enseignant', 'annee_scolaire', 'region', 'code_region', 'province', 'milieu', 'genre', 'cycle_enseigne', 'categorie', 'matiere', 'anciennete_annees', 'salaire_mensuel_mad', 'heures_semaine', 'formation_continue', 'jours_absence']
+2026-07-23 10:49:53,363 | INFO | Types :
+id_enseignant            str
+annee_scolaire           str
+region                   str
+code_region              str
+province                 str
+milieu                   str
+genre                    str
+cycle_enseigne           str
+categorie                str
+matiere                  str
+anciennete_annees      int64
+salaire_mensuel_mad    int64
+heures_semaine         int64
+formation_continue     int64
+jours_absence          int64
+dtype: object
+2026-07-23 10:49:53,378 | INFO | Valeurs nulles :
+id_enseignant          0
+annee_scolaire         0
+region                 0
+code_region            0
+province               0
+milieu                 0
+genre                  0
+cycle_enseigne         0
+categorie              0
+matiere                0
+anciennete_annees      0
+salaire_mensuel_mad    0
+heures_semaine         0
+formation_continue     0
+jours_absence          0
+dtype: int64
+2026-07-23 10:49:57,187 | INFO | Table bronze.enseignants chargée avec succès.
+2026-07-23 10:49:57,187 | INFO | ================================================================================
+2026-07-23 10:49:57,197 | INFO | Lecture du fichier : ds2_etablissements.csv
+2026-07-23 10:49:57,229 | INFO | Lignes : 3000
+2026-07-23 10:49:57,229 | INFO | Colonnes : 19
+2026-07-23 10:49:57,229 | INFO | Noms des colonnes : ['id_etablissement', 'nom_etablissement', 'annee_scolaire', 'region', 'code_region', 'province', 'milieu', 'secteur', 'cycle', 'nb_classes', 'effectif_eleves', 'annee_creation', 'equipement_bibliotheque', 'equipement_laboratoire', 'equipement_salle_sport', 'acces_internet', 'cantine', 'latitude', 'longitude']
+2026-07-23 10:49:57,229 | INFO | Types :
+id_etablissement               str
+nom_etablissement              str
+annee_scolaire                 str
+region                         str
+code_region                    str
+province                       str
+milieu                         str
+secteur                        str
+cycle                          str
+nb_classes                   int64
+effectif_eleves              int64
+annee_creation               int64
+equipement_bibliotheque      int64
+equipement_laboratoire       int64
+equipement_salle_sport       int64
+acces_internet               int64
+cantine                      int64
+latitude                   float64
+longitude                  float64
+dtype: object
+2026-07-23 10:49:57,229 | INFO | Valeurs nulles :
+id_etablissement           0
+nom_etablissement          0
+annee_scolaire             0
+region                     0
+code_region                0
+province                   0
+milieu                     0
+secteur                    0
+cycle                      0
+nb_classes                 0
+effectif_eleves            0
+annee_creation             0
+equipement_bibliotheque    0
+equipement_laboratoire     0
+equipement_salle_sport     0
+acces_internet             0
+cantine                    0
+latitude                   0
+longitude                  0
+dtype: int64
+2026-07-23 10:50:00,734 | INFO | Table bronze.etablissements chargée avec succès.
+2026-07-23 10:50:00,745 | INFO | ================================================================================
+2026-07-23 10:50:00,751 | INFO | Lecture du fichier : ds4_examens_nationaux.csv
+2026-07-23 10:50:00,912 | INFO | Lignes : 10000
+2026-07-23 10:50:00,930 | INFO | Colonnes : 18
+2026-07-23 10:50:00,947 | INFO | Noms des colonnes : ['id_candidat', 'annee', 'type_examen', 'filiere', 'region', 'code_region', 'milieu', 'secteur', 'genre', 'note_arabe', 'note_mathematiques', 'note_francais', 'note_sciences', 'note_histoire_geo', 'note_education_islamique', 'moyenne_generale', 'admis', 'mention']
+2026-07-23 10:50:00,950 | INFO | Types :
+id_candidat                     str
+annee                         int64
+type_examen                     str
+filiere                         str
+region                          str
+code_region                     str
+milieu                          str
+secteur                         str
+genre                           str
+note_arabe                  float64
+note_mathematiques          float64
+note_francais               float64
+note_sciences               float64
+note_histoire_geo           float64
+note_education_islamique    float64
+moyenne_generale            float64
+admis                         int64
+mention                         str
+dtype: object
+2026-07-23 10:50:00,993 | INFO | Valeurs nulles :
+id_candidat                    0
+annee                          0
+type_examen                    0
+filiere                     5529
+region                         0
+code_region                    0
+milieu                         0
+secteur                        0
+genre                          0
+note_arabe                     0
+note_mathematiques             0
+note_francais                  0
+note_sciences                  0
+note_histoire_geo              0
+note_education_islamique       0
+moyenne_generale               0
+admis                          0
+mention                        0
+dtype: int64
+2026-07-23 10:50:08,863 | INFO | Table bronze.examens_nationaux chargée avec succès.
+2026-07-23 10:50:08,863 | INFO | ================================================================================
+2026-07-23 10:50:08,863 | INFO | Lecture du fichier : ds5_budget_education.csv
+2026-07-23 10:50:08,863 | INFO | Lignes : 972
+2026-07-23 10:50:08,863 | INFO | Colonnes : 7
+2026-07-23 10:50:08,863 | INFO | Noms des colonnes : ['annee', 'region', 'code_region', 'poste_budgetaire', 'budget_alloue_mad', 'budget_execute_mad', 'taux_execution']
+2026-07-23 10:50:08,877 | INFO | Types :
+annee                   int64
+region                    str
+code_region               str
+poste_budgetaire          str
+budget_alloue_mad       int64
+budget_execute_mad      int64
+taux_execution        float64
+dtype: object
+2026-07-23 10:50:08,879 | INFO | Valeurs nulles :
+annee                 0
+region                0
+code_region           0
+poste_budgetaire      0
+budget_alloue_mad     0
+budget_execute_mad    0
+taux_execution        0
+dtype: int64
+2026-07-23 10:50:09,120 | INFO | Table bronze.budget chargée avec succès.
+2026-07-23 10:50:09,120 | INFO | ================================================================================
+2026-07-23 10:50:09,120 | INFO | Lecture du fichier : ds7_abandons_scolaires.csv
+2026-07-23 10:50:09,158 | INFO | Lignes : 5000
+2026-07-23 10:50:09,159 | INFO | Colonnes : 16
+2026-07-23 10:50:09,159 | INFO | Noms des colonnes : ['id_abandon', 'annee_scolaire', 'region', 'code_region', 'province', 'milieu', 'cycle', 'niveau_classe', 'genre', 'age_abandon', 'motif_principal', 'distance_etablissement', 'revenu_menage_mensuel', 'nb_enfants_menage', 'parent_analphabete', 'retour_ecole']
+2026-07-23 10:50:09,160 | INFO | Types :
+id_abandon                  str
+annee_scolaire              str
+region                      str
+code_region                 str
+province                    str
+milieu                      str
+cycle                       str
+niveau_classe               str
+genre                       str
+age_abandon               int64
+motif_principal             str
+distance_etablissement      str
+revenu_menage_mensuel       str
+nb_enfants_menage         int64
+parent_analphabete        int64
+retour_ecole              int64
+dtype: object
+2026-07-23 10:50:09,166 | INFO | Valeurs nulles :
+id_abandon                0
+annee_scolaire            0
+region                    0
+code_region               0
+province                  0
+milieu                    0
+cycle                     0
+niveau_classe             0
+genre                     0
+age_abandon               0
+motif_principal           0
+distance_etablissement    0
+revenu_menage_mensuel     0
+nb_enfants_menage         0
+parent_analphabete        0
+retour_ecole              0
+dtype: int64
+2026-07-23 10:50:12,825 | INFO | Table bronze.abandons_scolaires chargée avec succès.
+2026-07-23 10:50:12,827 | INFO | ================================================================================
+2026-07-23 10:50:12,827 | INFO | Lecture du fichier : ds8_alphabetisation_adultes.csv
+2026-07-23 10:50:12,874 | INFO | Lignes : 4000
+2026-07-23 10:50:12,874 | INFO | Colonnes : 14
+2026-07-23 10:50:12,875 | INFO | Noms des colonnes : ['id_beneficiaire', 'annee', 'region', 'code_region', 'province', 'milieu', 'genre', 'age', 'tranche_age', 'operateur', 'niveau_formation', 'heures_formation', 'formation_completee', 'score_evaluation_final']
+2026-07-23 10:50:12,877 | INFO | Types :
+id_beneficiaire               str
+annee                       int64
+region                        str
+code_region                   str
+province                      str
+milieu                        str
+genre                         str
+age                         int64
+tranche_age                   str
+operateur                     str
+niveau_formation              str
+heures_formation            int64
+formation_completee         int64
+score_evaluation_final    float64
+dtype: object
+2026-07-23 10:50:12,881 | INFO | Valeurs nulles :
+id_beneficiaire            0
+annee                      0
+region                     0
+code_region                0
+province                   0
+milieu                     0
+genre                      0
+age                        0
+tranche_age               66
+operateur                  0
+niveau_formation           0
+heures_formation           0
+formation_completee        0
+score_evaluation_final     0
+dtype: int64
+2026-07-23 10:50:14,972 | INFO | Table bronze.alphabetisation_adultes chargée avec succès.
+2026-07-23 10:50:14,973 | INFO | ================================================================================
+2026-07-23 10:50:14,973 | INFO | Lecture du fichier : ds9_appui_social.csv
+2026-07-23 10:50:15,007 | INFO | Lignes : 6000
+2026-07-23 10:50:15,007 | INFO | Colonnes : 10
+2026-07-23 10:50:15,007 | INFO | Noms des colonnes : ['id_beneficiaire', 'annee_scolaire', 'region', 'code_region', 'milieu', 'genre', 'cycle', 'type_aide', 'montant_aide_mad', 'organisme_financeur']
+2026-07-23 10:50:15,007 | INFO | Types :
+id_beneficiaire          str
+annee_scolaire           str
+region                   str
+code_region              str
+milieu                   str
+genre                    str
+cycle                    str
+type_aide                str
+montant_aide_mad       int64
+organisme_financeur      str
+dtype: object
+2026-07-23 10:50:15,017 | INFO | Valeurs nulles :
+id_beneficiaire        0
+annee_scolaire         0
+region                 0
+code_region            0
+milieu                 0
+genre                  0
+cycle                  0
+type_aide              0
+montant_aide_mad       0
+organisme_financeur    0
+dtype: int64
+2026-07-23 10:50:17,961 | INFO | Table bronze.appui_social chargée avec succès.
+2026-07-23 10:50:17,961 | INFO | ================================================================================
+2026-07-23 10:50:17,962 | INFO | FIN DU CHARGEMENT
+2026-07-23 10:50:17,962 | INFO | ================================================================================

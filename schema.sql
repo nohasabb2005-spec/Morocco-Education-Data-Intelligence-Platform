@@ -18,8 +18,7 @@ create table if not exists Bronze.eleves(
     beneficiaire_bourse integer,
     access_cantine    integer,
     access_internat   integer
-),
-
+);
 --------------table2------------
 create table if not exists Bronze.enseignants(
     id_enseignant    varchar(40),
@@ -37,7 +36,7 @@ create table if not exists Bronze.enseignants(
     heures_semaine   integer,
     formation_continue integer,
     jours_absence    integer
-),
+);
 -------------table 3----------
 create table if not exists Bronze.etablissements(
     id_etablissement    varchar(20),
@@ -59,7 +58,7 @@ create table if not exists Bronze.etablissements(
     cantine             integer,
     latitude            numeric(12,2),
     longitude           numeric(12,2)
-),
+);
 ---------table4---------------
 create table if not exists Bronze.examens_nationaux(
     id_candidat        varchar(20),
@@ -77,10 +76,10 @@ create table if not exists Bronze.examens_nationaux(
     note_sciences      numeric(12,2),
     note_histoire_geo  numeric(12,2),
     note_education_islamique  numeric(12,2),
-    moyenne_generale   numeric(12,2)
+    moyenne_generale   numeric(12,2),
     admis              integer,
     mention            varchar(35)
-),
+);
 -----------------table5------------
 create table if not exists Bronze.budget(
             annee              integer,
