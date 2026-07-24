@@ -1,4 +1,4 @@
-{{config (materialized='table')}}
+
 
 WITH mode_filiere AS (
 

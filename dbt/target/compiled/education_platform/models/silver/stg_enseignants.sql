@@ -1,6 +1,4 @@
-{{ config(
-    materialized='table'
-) }}
+
 
 SELECT
      trim(id_enseignant) as id_enseignant,

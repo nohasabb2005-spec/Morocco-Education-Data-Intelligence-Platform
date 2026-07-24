@@ -1,6 +1,14 @@
-{{ config(
-    materialized='table'
-) }}
+
+  
+    
+
+  create  table "education_db"."silver"."stg_enseignants__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
 
 SELECT
      trim(id_enseignant) as id_enseignant,
@@ -23,3 +31,5 @@ SELECT
      END AS formation_continue,
      jours_absence
 from bronze.enseignants
+  );
+  

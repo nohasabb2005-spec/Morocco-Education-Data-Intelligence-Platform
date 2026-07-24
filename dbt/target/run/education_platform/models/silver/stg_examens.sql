@@ -1,4 +1,14 @@
-{{config (materialized='table')}}
+
+  
+    
+
+  create  table "education_db"."silver"."stg_examens__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
 
 WITH mode_filiere AS (
 
@@ -38,3 +48,5 @@ select
 
 from bronze.examens_nationaux e
 CROSS JOIN mode_filiere m
+  );
+  

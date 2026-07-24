@@ -1,4 +1,14 @@
-{{ config(materialized='table') }}
+
+  
+    
+
+  create  table "education_db"."silver"."stg_budget__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
 
 SELECT
 
@@ -14,3 +24,5 @@ SELECT
     taux_execution
 
 FROM bronze.budget
+  );
+  
