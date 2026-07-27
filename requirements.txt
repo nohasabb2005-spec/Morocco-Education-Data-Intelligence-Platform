@@ -7,3 +7,5 @@ psycopg2
 dotenv
 openpyxl
 minio
+dbt-core 
+dbt-postgres

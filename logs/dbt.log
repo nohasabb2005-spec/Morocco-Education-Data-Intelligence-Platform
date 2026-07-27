@@ -1,0 +1,137 @@
+[0m12:40:34.327026 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000101BE731490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000101BE411AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000101BE164CB0>]}
+
+
+============================== 12:40:34.335895 | 4a092b2e-78a8-46ca-a310-5b84698d129d ==============================
+[0m12:40:34.335895 [info ] [MainThread]: Running with dbt=1.12.0
+[0m12:40:34.335895 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\PRO\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt init education_dbt', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m12:40:34.395856 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\PRO\.dbt
+[0m12:40:34.397877 [debug] [MainThread]: Starter project path: C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\venv\Lib\site-packages\dbt\include\starter_project
+[0m12:40:34.459343 [info ] [MainThread]: Setting up your profile.
+[0m12:40:52.304832 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+list index out of range
+[0m12:40:52.313167 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\venv\Lib\site-packages\dbt\cli\requires.py", line 190, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\venv\Lib\site-packages\dbt\cli\requires.py", line 136, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\venv\Lib\site-packages\dbt\cli\main.py", line 503, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\venv\Lib\site-packages\dbt\task\init.py", line 360, in run
+    self.setup_profile(profile_name)
+  File "C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\venv\Lib\site-packages\dbt\task\init.py", line 263, in setup_profile
+    adapter = self.ask_for_adapter_choice()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\venv\Lib\site-packages\dbt\task\init.py", line 245, in ask_for_adapter_choice
+    return available_adapters[numeric_choice - 1]
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+[0m12:40:52.315124 [debug] [MainThread]: Command `dbt init` failed at 12:40:52.315124 after 18.28 seconds
+[0m12:40:52.317568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000101BE731490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000101BE04FD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000101C0297170>]}
+[0m12:40:52.319185 [debug] [MainThread]: Flushing usage events
+[0m12:40:53.692861 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:41:03.931380 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEA93AFE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEA7513140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEA6294AD0>]}
+
+
+============================== 12:41:03.939008 | 6384b326-3d09-41b6-9f62-4fb5bb6babf2 ==============================
+[0m12:41:03.939008 [info ] [MainThread]: Running with dbt=1.12.0
+[0m12:41:03.944557 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\PRO\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init education_dbt', 'log_path': 'logs'}
+[0m12:41:04.001170 [info ] [MainThread]: A project called education_dbt already exists here.
+[0m12:41:04.006060 [debug] [MainThread]: Command `dbt init` succeeded at 12:41:04.005544 after 0.44 seconds
+[0m12:41:04.006060 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEA93AFE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEAB638E30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEA99BD760>]}
+[0m12:41:04.006060 [debug] [MainThread]: Flushing usage events
+[0m12:41:05.569529 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:18:07.416861 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BF3EB5D3A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BF3F91EF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BF3F8A2780>]}
+
+
+============================== 14:18:07.431063 | 434b1578-6ada-4014-8c17-5b7e34018625 ==============================
+[0m14:18:07.431063 [info ] [MainThread]: Running with dbt=1.12.0
+[0m14:18:07.432590 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\PRO\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt init education_dbt', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m14:18:07.491479 [debug] [MainThread]: Starter project path: C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\venv\Lib\site-packages\dbt\include\starter_project
+[0m14:18:07.525307 [info ] [MainThread]: Setting up your profile.
+[0m14:20:29.103129 [info ] [MainThread]: Profile education_dbt written to C:\Users\PRO\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m14:20:29.103129 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m14:20:29.103129 [info ] [MainThread]: dbt version: 1.12.0
+[0m14:20:29.103129 [info ] [MainThread]: python version: 3.12.1
+[0m14:20:29.103129 [info ] [MainThread]: python path: C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\venv\Scripts\python.exe
+[0m14:20:29.118750 [info ] [MainThread]: os info: Windows-11-10.0.22621-SP0
+[0m14:20:29.365652 [info ] [MainThread]: Using profiles dir at C:\Users\PRO\.dbt
+[0m14:20:29.365652 [info ] [MainThread]: Using profiles.yml file at C:\Users\PRO\.dbt\profiles.yml
+[0m14:20:29.365652 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\education_dbt\dbt_project.yml
+[0m14:20:29.365652 [info ] [MainThread]: adapter type: postgres
+[0m14:20:29.365652 [info ] [MainThread]: adapter version: 1.11.0
+[0m14:20:29.536803 [info ] [MainThread]: Configuration:
+[0m14:20:29.536803 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:20:29.536803 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m14:20:29.536803 [info ] [MainThread]: Required dependencies:
+[0m14:20:29.552385 [debug] [MainThread]: Executing "git --help"
+[0m14:20:29.611165 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:20:29.612163 [debug] [MainThread]: STDERR: "b''"
+[0m14:20:29.613169 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:20:29.613994 [info ] [MainThread]: Connection:
+[0m14:20:29.615153 [info ] [MainThread]:   host: localhost
+[0m14:20:29.616396 [info ] [MainThread]:   port: 5432
+[0m14:20:29.618428 [info ] [MainThread]:   user: postgres
+[0m14:20:29.619428 [info ] [MainThread]:   database: education_db
+[0m14:20:29.621432 [info ] [MainThread]:   schema: silver
+[0m14:20:29.623427 [info ] [MainThread]:   connect_timeout: 10
+[0m14:20:29.624660 [info ] [MainThread]:   role: None
+[0m14:20:29.627723 [info ] [MainThread]:   search_path: None
+[0m14:20:29.629717 [info ] [MainThread]:   keepalives_idle: 0
+[0m14:20:29.630725 [info ] [MainThread]:   sslmode: None
+[0m14:20:29.631716 [info ] [MainThread]:   sslcert: None
+[0m14:20:29.632719 [info ] [MainThread]:   sslkey: None
+[0m14:20:29.633726 [info ] [MainThread]:   sslrootcert: None
+[0m14:20:29.635720 [info ] [MainThread]:   application_name: dbt
+[0m14:20:29.637724 [info ] [MainThread]:   autocommit: False
+[0m14:20:29.638719 [info ] [MainThread]:   retries: 1
+[0m14:20:29.640270 [info ] [MainThread]: Registered adapter: postgres=1.11.0
+[0m14:20:30.150259 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m14:20:34.973087 [debug] [MainThread]: Using postgres connection "debug"
+[0m14:20:34.973087 [debug] [MainThread]: On debug: select 1 as id
+[0m14:20:34.977133 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:20:35.058853 [debug] [MainThread]: SQL status: SELECT 1 in 0.081 seconds
+[0m14:20:35.061636 [debug] [MainThread]: On debug: Close
+[0m14:20:35.064370 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:20:35.068942 [info ] [MainThread]: [32mAll checks passed![0m
+[0m14:20:35.070008 [info ] [MainThread]: Your new dbt project "education_dbt" was created!
+Initialized new project in C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\education_dbt\education_dbt
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:20:35.070008 [debug] [MainThread]: Command `dbt init` succeeded at 14:20:35.070008 after 148.07 seconds
+[0m14:20:35.070008 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:20:35.076553 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BF417043B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BF3D2D9AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BF3F490B60>]}
+[0m14:20:35.078610 [debug] [MainThread]: Flushing usage events
+[0m14:20:36.309280 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:27:31.702129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237BBB4C6B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237B97CCA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237B9842D20>]}
+
+
+============================== 10:27:31.711713 | be74c324-c4ec-41ac-8dea-aea6b3d519bf ==============================
+[0m10:27:31.711713 [info ] [MainThread]: Running with dbt=1.12.0
+[0m10:27:31.714316 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\PRO\\.dbt', 'invocation_command': 'dbt run --select stg_abandons', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m10:27:31.714316 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:27:31.717331 [debug] [MainThread]: Command `dbt run` failed at 10:27:31.716163 after 0.49 seconds
+[0m10:27:31.717331 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237BBB4C6B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237BB9F1250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237B9FFC1A0>]}
+[0m10:27:31.717331 [debug] [MainThread]: Flushing usage events
+[0m10:27:33.258949 [debug] [MainThread]: An error was encountered while trying to flush usage events
