@@ -1,4 +1,14 @@
-{{ config(materialized='table') }}
+
+  
+    
+
+  create  table "education_db"."silver"."stg_abandons__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
 
 WITH source AS (
 
@@ -94,3 +104,5 @@ SELECT
     END AS revenu_mensuel_max
 
 FROM source
+  );
+  

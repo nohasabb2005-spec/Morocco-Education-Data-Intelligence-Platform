@@ -1,4 +1,14 @@
-{{config (materialized='table')}}
+
+  
+    
+
+  create  table "education_db"."silver"."stg_alphabetisation__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
  
 select 
      trim(id_beneficiaire) as id_beneficiaire,
@@ -38,3 +48,5 @@ select
     score_evaluation_final
 
 from bronze.alphabetisation_adultes
+  );
+  

@@ -1,4 +1,14 @@
-{{ config (materialized='table')}}
+
+  
+    
+
+  create  table "education_db"."silver"."stg_appui_social__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
 
 select 
      trim(id_beneficiaire) as id_beneficiaire,
@@ -12,3 +22,5 @@ select
      montant_aide_mad,
      trim(organisme_financeur) as organisme_financeur
 from bronze.appui_social
+  );
+  

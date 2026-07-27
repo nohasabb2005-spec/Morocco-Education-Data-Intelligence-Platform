@@ -1,4 +1,4 @@
-{{ config (materialized='table')}}
+
 
 select 
      trim(id_beneficiaire) as id_beneficiaire,
