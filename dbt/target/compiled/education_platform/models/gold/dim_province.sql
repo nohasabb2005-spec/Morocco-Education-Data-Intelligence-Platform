@@ -1,11 +1,11 @@
-{{ config(materialized='table') }}
+
 
 WITH provinces AS (
 
     SELECT DISTINCT
         TRIM(code_region) AS code_region,
         TRIM(province) AS province
-    FROM {{ ref('stg_etablissements') }}
+    FROM "education_db"."silver"."stg_etablissements"
     WHERE province IS NOT NULL
       AND code_region IS NOT NULL
 
@@ -23,7 +23,7 @@ SELECT
 
 FROM provinces p
 
-LEFT JOIN {{ ref('dim_region') }} r
+LEFT JOIN "education_db"."gold"."dim_region" r
     ON p.code_region = r.code_region
 
 ORDER BY p.code_region, p.province

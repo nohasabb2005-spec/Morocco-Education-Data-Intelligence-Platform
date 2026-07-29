@@ -1,4 +1,4 @@
-{{ config (materialized= 'table')}}
+
 
 select distinct
         row_number() over( order by b.annee,b.code_region,b.poste_budgetaire) as budget_id,
@@ -9,9 +9,9 @@ select distinct
         b.budget_execute_mad,
         b.taux_execution
 
-from {{ref ('stg_budget')}} b
-LEFT JOIN {{ ref('dim_date') }} a
+from "education_db"."silver"."stg_budget" b
+LEFT JOIN "education_db"."gold"."dim_date" a
     ON b.annee::TEXT = a.annee_debut::TEXT
 
-LEFT JOIN {{ ref('dim_region') }} r
+LEFT JOIN "education_db"."gold"."dim_region" r
     ON b.code_region = r.code_region

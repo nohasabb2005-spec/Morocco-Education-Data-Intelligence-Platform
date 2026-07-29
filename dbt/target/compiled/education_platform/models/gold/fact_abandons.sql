@@ -1,4 +1,4 @@
-{{ config(materialized='table') }}
+
 
 SELECT DISTINCT
 
@@ -34,17 +34,17 @@ SELECT DISTINCT
 
     a.retour_ecole
 
-FROM {{ ref('stg_abandons') }} a
+FROM "education_db"."silver"."stg_abandons" a
 
-LEFT JOIN {{ ref('dim_date') }} d
+LEFT JOIN "education_db"."gold"."dim_date" d
     ON a.annee_scolaire = d.annee_scolaire
 
-LEFT JOIN {{ ref('dim_province') }} p
+LEFT JOIN "education_db"."gold"."dim_province" p
     ON a.province = p.province
    AND a.code_region = p.code_region
 
-LEFT JOIN {{ ref('dim_cycle') }} c
+LEFT JOIN "education_db"."gold"."dim_cycle" c
     ON a.cycle = c.cycle
 
-LEFT JOIN {{ ref('dim_genre') }} g
+LEFT JOIN "education_db"."gold"."dim_genre" g
     ON a.code_genre = g.code_genre

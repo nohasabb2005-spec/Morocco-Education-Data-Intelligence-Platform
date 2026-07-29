@@ -1,4 +1,14 @@
-{{ config(materialized='table') }}
+
+  
+    
+
+  create  table "education_db"."gold"."fact_alphabetisation__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
 
 SELECT DISTINCT
 
@@ -18,29 +28,31 @@ SELECT DISTINCT
     a.formation_completee,
     a.score_evaluation_final
 
-FROM {{ ref('stg_alphabetisation') }} a
+FROM "education_db"."silver"."stg_alphabetisation" a
 
 
 -- Dimension date
-LEFT JOIN {{ ref('dim_date') }} d
+LEFT JOIN "education_db"."gold"."dim_date" d
     ON a.annee::text = d.annee_scolaire
 
 
 -- Dimension région
-LEFT JOIN {{ ref('dim_region') }} r
+LEFT JOIN "education_db"."gold"."dim_region" r
     ON a.code_region = r.code_region
 
 
 -- Dimension province
-LEFT JOIN {{ ref('dim_province') }} p
+LEFT JOIN "education_db"."gold"."dim_province" p
     ON a.province = p.province
 
 
 -- Dimension genre
-LEFT JOIN {{ ref('dim_genre') }} g
+LEFT JOIN "education_db"."gold"."dim_genre" g
     ON a.genre = g.genre
 
 
 -- Dimension opérateur
-LEFT JOIN {{ ref('dim_operateur') }} o
+LEFT JOIN "education_db"."gold"."dim_operateur" o
     ON a.operateur = o.operateur
+  );
+  

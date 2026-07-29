@@ -1,4 +1,14 @@
-{{ config(materialized='table') }}
+
+  
+    
+
+  create  table "education_db"."gold"."fact_appui_social__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
 
 SELECT DISTINCT
 
@@ -18,24 +28,26 @@ SELECT DISTINCT
     a.type_aide,
     a.organisme_financeur
 
-FROM {{ ref('stg_appui_social') }} a
+FROM "education_db"."silver"."stg_appui_social" a
 
 
 -- Dimension date
-LEFT JOIN {{ ref('dim_date') }} d
+LEFT JOIN "education_db"."gold"."dim_date" d
     ON a.annee_scolaire = d.annee_scolaire
 
 
 -- Dimension région
-LEFT JOIN {{ ref('dim_region') }} r
+LEFT JOIN "education_db"."gold"."dim_region" r
     ON a.code_region = r.code_region
 
 
 -- Dimension genre
-LEFT JOIN {{ ref('dim_genre') }} g
+LEFT JOIN "education_db"."gold"."dim_genre" g
     ON a.genre = g.genre
 
 
 -- Dimension cycle
-LEFT JOIN {{ ref('dim_cycle') }} c
+LEFT JOIN "education_db"."gold"."dim_cycle" c
     ON a.cycle = c.cycle
+  );
+  

@@ -50,15 +50,19 @@ SELECT
     
     -- Motif d'abandon
   
-    CASE
+   CASE
+       WHEN a_abandonne = 0 THEN 'Aucun abandon'
+
         WHEN a_abandonne = 1
-             AND (motif_abandon IS NULL OR TRIM(motif_abandon) = '')
+         AND (motif_abandon IS NULL OR TRIM(motif_abandon) = '')
         THEN 'Non renseigné'
 
-        WHEN a_abandonne = 0
-        THEN NULL
-
         ELSE TRIM(motif_abandon)
-    END AS motif_abandon
+    END AS motif_abandon,
+    CASE 
+        WHEN genre ='Masculin' then 'M'
+        WHEN genre = 'Féminin' then 'F'
+        ELSE NULL
+    END AS code_genre
 
 FROM bronze.eleves

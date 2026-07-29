@@ -101,7 +101,12 @@ SELECT
         WHEN revenu_menage_mensuel = '4000-7000 MAD' THEN 7000
         WHEN revenu_menage_mensuel = '> 7000 MAD' THEN NULL
         ELSE NULL
-    END AS revenu_mensuel_max
+    END AS revenu_mensuel_max ,
+    CASE
+        WHEN genre = 'Masculin' THEN 'M'
+        WHEN genre = 'Féminin' THEN 'F'
+        ELSE NULL
+    END AS code_genre
 
 FROM source
   );

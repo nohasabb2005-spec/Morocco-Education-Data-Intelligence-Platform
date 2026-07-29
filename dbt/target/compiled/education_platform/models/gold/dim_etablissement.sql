@@ -1,4 +1,4 @@
-{{ config(materialized='table') }}
+
 
 SELECT DISTINCT
 
@@ -20,7 +20,7 @@ SELECT DISTINCT
 
     e.longitude
 
-FROM {{ ref('stg_etablissements') }} e
+FROM "education_db"."silver"."stg_etablissements" e
 
-LEFT JOIN {{ ref('dim_province') }} p
+LEFT JOIN "education_db"."gold"."dim_province" p
     ON TRIM(e.province) = TRIM(p.province)

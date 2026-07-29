@@ -1,4 +1,4 @@
-{{ config(materialized='table') }}
+
 
 SELECT
     ROW_NUMBER() OVER (ORDER BY cycle) AS cycle_id,
@@ -6,7 +6,7 @@ SELECT
 FROM (
     SELECT
         TRIM(cycle) AS cycle
-    FROM {{ ref('stg_eleves') }}
+    FROM "education_db"."silver"."stg_eleves"
     WHERE cycle IS NOT NULL
     GROUP BY TRIM(cycle)
 ) t

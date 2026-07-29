@@ -1,4 +1,4 @@
-{{ config(materialized='table') }}
+
 
 SELECT distinct
 
@@ -38,13 +38,13 @@ SELECT distinct
 
     e.admis
 
-FROM {{ ref('stg_examens') }} e
+FROM "education_db"."silver"."stg_examens" e
 
-LEFT JOIN {{ ref('dim_date') }} d
+LEFT JOIN "education_db"."gold"."dim_date" d
     ON e.annee::TEXT = d.annee_debut::TEXT
 
-LEFT JOIN {{ ref('dim_region') }} r
+LEFT JOIN "education_db"."gold"."dim_region" r
     ON e.code_region = r.code_region
 
-LEFT JOIN {{ ref('dim_genre') }} g
+LEFT JOIN "education_db"."gold"."dim_genre" g
     ON e.genre = g.code_genre

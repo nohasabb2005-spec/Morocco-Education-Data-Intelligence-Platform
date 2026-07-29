@@ -1,10 +1,20 @@
-{{config (materialized='table')}}
+
+  
+    
+
+  create  table "education_db"."gold"."dim_genre__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
 
 with genres as(
     SELECT DISTINCT
             trim(code_genre) as code_genre,
             trim(genre) as genre
-            from {{ref ('stg_eleves')}}
+            from "education_db"."silver"."stg_eleves"
             where genre is not null 
             and code_genre is not null
 )
@@ -15,3 +25,5 @@ SELECT
       genre
 from genres 
 order by code_genre
+  );
+  

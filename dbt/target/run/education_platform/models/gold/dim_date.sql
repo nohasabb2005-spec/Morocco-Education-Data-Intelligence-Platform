@@ -1,34 +1,44 @@
-{{ config(materialized='table') }}
+
+  
+    
+
+  create  table "education_db"."gold"."dim_date__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
 
 WITH dates AS (
 
     SELECT annee_scolaire::text AS annee_scolaire
-    FROM {{ ref('stg_eleves') }}
+    FROM "education_db"."silver"."stg_eleves"
 
     UNION
 
     SELECT annee::text AS annee_scolaire
-    FROM {{ ref('stg_examens') }}
+    FROM "education_db"."silver"."stg_examens"
 
     UNION
 
     SELECT annee::text AS annee_scolaire
-    FROM {{ ref('stg_budget') }}
+    FROM "education_db"."silver"."stg_budget"
 
     UNION
 
     SELECT annee_scolaire::text AS annee_scolaire
-    FROM {{ ref('stg_appui_social') }}
+    FROM "education_db"."silver"."stg_appui_social"
 
     UNION
 
     SELECT annee_scolaire::text AS annee_scolaire
-    FROM {{ ref('stg_abandons') }}
+    FROM "education_db"."silver"."stg_abandons"
 
     UNION
 
     SELECT annee::text AS annee_scolaire
-    FROM {{ ref('stg_alphabetisation') }}
+    FROM "education_db"."silver"."stg_alphabetisation"
 
 )
 
@@ -56,3 +66,5 @@ FROM (
 ) d
 
 ORDER BY annee_scolaire
+  );
+  
