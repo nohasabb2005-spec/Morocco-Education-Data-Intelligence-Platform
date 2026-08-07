@@ -1,4 +1,4 @@
-<img width="1177" height="615" alt="dash_alpha" src="https://github.com/user-attachments/assets/fab7e70f-0790-4a72-85ad-420c508e9da3" /># 🎓 Morocco Education Data Intelligence Platform
+# 🎓 Morocco Education Data Intelligence Platform
 
 A modern Business Intelligence and Data Engineering platform designed to analyze the Moroccan education system using a Lakehouse-inspired architecture.
 
