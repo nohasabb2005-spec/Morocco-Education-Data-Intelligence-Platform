@@ -13,6 +13,7 @@ SELECT distinct
 
     -- Mesures
     e.score_moyen,
+    e.age,
     e.redoublant,
     e.beneficiaire_bourse,
     e.acces_cantine,

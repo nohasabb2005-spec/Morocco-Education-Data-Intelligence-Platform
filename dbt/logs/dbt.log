@@ -21918,3 +21918,262 @@ drop table if exists "education_db"."gold"."fact_alphabetisation__dbt_backup" ca
 [0m18:29:59.273234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ABC6E5F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ABD871430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ABD8715B0>]}
 [0m18:30:00.931458 [debug] [MainThread]: An error was encountered while trying to send an event
 [0m18:30:00.937097 [debug] [MainThread]: Flushing usage events
+[0m12:19:14.537164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA663317F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA641E4260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA65E071A0>]}
+
+
+============================== 12:19:14.556632 | f3ade4a9-324d-45c4-956f-15458caa697b ==============================
+[0m12:19:14.556632 [info ] [MainThread]: Running with dbt=1.12.0
+[0m12:19:14.558930 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\PRO\\Desktop\\Morocco Education Data Intelligence Platform\\dbt', 'invocation_command': 'dbt run --select fact_eleves', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\PRO\\Desktop\\Morocco Education Data Intelligence Platform\\dbt\\logs'}
+[0m12:19:15.452242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f3ade4a9-324d-45c4-956f-15458caa697b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA65CEF5C0>]}
+[0m12:19:15.560730 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f3ade4a9-324d-45c4-956f-15458caa697b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA681802C0>]}
+[0m12:19:15.582570 [info ] [MainThread]: Registered adapter: postgres=1.11.0
+[0m12:19:16.553195 [debug] [MainThread]: checksum: 081d5b184322d62e7179d8634cae1b57b75565c9b8f10afb963190e28b631aeb, vars: {}, profile: education_platform, target: dev, version: 1.12.0
+[0m12:19:20.368336 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m12:19:20.368336 [debug] [MainThread]: Partial parsing: updated file: education_platform://models\gold\fact_eleves.sql
+[0m12:19:20.892936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f3ade4a9-324d-45c4-956f-15458caa697b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA686A83E0>]}
+[0m12:19:21.035139 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\dbt\target\manifest.json
+[0m12:19:21.063031 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\dbt\target\semantic_manifest.json
+[0m12:19:21.151869 [debug] [MainThread]: Wrote artifact OsiDocument to C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\dbt\target\osi_document.json
+[0m12:19:21.204527 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f3ade4a9-324d-45c4-956f-15458caa697b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA68252D80>]}
+[0m12:19:21.206271 [info ] [MainThread]: Found 22 models, 479 macros
+[0m12:19:21.208323 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f3ade4a9-324d-45c4-956f-15458caa697b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA6847DC40>]}
+[0m12:19:21.211776 [info ] [MainThread]: 
+[0m12:19:21.212810 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m12:19:21.212810 [info ] [MainThread]: 
+[0m12:19:21.215680 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m12:19:21.218177 [debug] [ThreadPool]: Acquiring new postgres connection 'list_education_db'
+[0m12:19:27.726172 [debug] [ThreadPool]: Using postgres connection "list_education_db"
+[0m12:19:27.742791 [debug] [ThreadPool]: On list_education_db: /* {"app": "dbt", "dbt_version": "1.12.0", "profile_name": "education_platform", "target_name": "dev", "connection_name": "list_education_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m12:19:27.744557 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:19:27.837107 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.095 seconds
+[0m12:19:27.839982 [debug] [ThreadPool]: On list_education_db: Close
+[0m12:19:27.844499 [debug] [ThreadPool]: Acquiring new postgres connection 'list_education_db_gold'
+[0m12:19:27.844499 [debug] [ThreadPool]: Acquiring new postgres connection 'list_education_db_silver'
+[0m12:19:27.861163 [debug] [ThreadPool]: Using postgres connection "list_education_db_gold"
+[0m12:19:27.861163 [debug] [ThreadPool]: Using postgres connection "list_education_db_silver"
+[0m12:19:27.861163 [debug] [ThreadPool]: On list_education_db_gold: /* {"app": "dbt", "dbt_version": "1.12.0", "profile_name": "education_platform", "target_name": "dev", "connection_name": "list_education_db_gold"} */
+select
+      'education_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold'
+    union all
+    select
+      'education_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold'
+    union all
+    select
+      'education_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold'
+    union all
+    select distinct
+     'education_db' as database,
+     proname as name,
+     ns.nspname as schema,
+     'function' as type
+    from pg_proc
+     join pg_namespace as ns on pronamespace = ns.oid
+    where ns.nspname ilike 'gold'
+  
+[0m12:19:27.873376 [debug] [ThreadPool]: On list_education_db_silver: /* {"app": "dbt", "dbt_version": "1.12.0", "profile_name": "education_platform", "target_name": "dev", "connection_name": "list_education_db_silver"} */
+select
+      'education_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'silver'
+    union all
+    select
+      'education_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'silver'
+    union all
+    select
+      'education_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'silver'
+    union all
+    select distinct
+     'education_db' as database,
+     proname as name,
+     ns.nspname as schema,
+     'function' as type
+    from pg_proc
+     join pg_namespace as ns on pronamespace = ns.oid
+    where ns.nspname ilike 'silver'
+  
+[0m12:19:27.873376 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:19:27.873376 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:19:27.922362 [debug] [ThreadPool]: SQL status: SELECT 8 in 0.047 seconds
+[0m12:19:27.922870 [debug] [ThreadPool]: SQL status: SELECT 14 in 0.048 seconds
+[0m12:19:27.924639 [debug] [ThreadPool]: On list_education_db_silver: ROLLBACK
+[0m12:19:27.926997 [debug] [ThreadPool]: On list_education_db_gold: ROLLBACK
+[0m12:19:27.929249 [debug] [ThreadPool]: On list_education_db_gold: Close
+[0m12:19:27.932206 [debug] [ThreadPool]: On list_education_db_silver: Close
+[0m12:19:27.950608 [debug] [MainThread]: Using postgres connection "master"
+[0m12:19:27.950608 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.12.0", "profile_name": "education_platform", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m12:19:27.950608 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:19:27.981896 [debug] [MainThread]: SQL status: SELECT 0 in 0.034 seconds
+[0m12:19:27.989581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f3ade4a9-324d-45c4-956f-15458caa697b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA6802C5C0>]}
+[0m12:19:27.989581 [debug] [MainThread]: On master: ROLLBACK
+[0m12:19:27.993715 [debug] [MainThread]: On master: COMMIT
+[0m12:19:27.994940 [debug] [MainThread]: Using postgres connection "master"
+[0m12:19:27.996388 [debug] [MainThread]: On master: COMMIT
+[0m12:19:28.001069 [debug] [MainThread]: SQL status: COMMIT in 0.003 seconds
+[0m12:19:28.002346 [debug] [MainThread]: On master: Close
+[0m12:19:28.015206 [debug] [Thread-1 (]: Began running node model.education_platform.fact_eleves
+[0m12:19:28.017375 [info ] [Thread-1 (]: 1 of 1 START sql table model gold.fact_eleves .................................. [RUN]
+[0m12:19:28.020228 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.education_platform.fact_eleves'
+[0m12:19:28.020228 [debug] [Thread-1 (]: Began compiling node model.education_platform.fact_eleves
+[0m12:19:28.036367 [debug] [Thread-1 (]: Writing injected SQL for node "model.education_platform.fact_eleves"
+[0m12:19:28.048314 [debug] [Thread-1 (]: Began executing node model.education_platform.fact_eleves
+[0m12:19:28.100639 [debug] [Thread-1 (]: Writing runtime sql for node "model.education_platform.fact_eleves"
+[0m12:19:28.100639 [debug] [Thread-1 (]: Using postgres connection "model.education_platform.fact_eleves"
+[0m12:19:28.114270 [debug] [Thread-1 (]: On model.education_platform.fact_eleves: /* {"app": "dbt", "dbt_version": "1.12.0", "profile_name": "education_platform", "target_name": "dev", "node_id": "model.education_platform.fact_eleves"} */
+
+  
+    
+
+  create  table "education_db"."gold"."fact_eleves__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+SELECT distinct 
+
+    e.id_eleve,
+
+    -- Foreign Keys
+    d.date_id,
+    c.cycle_id,
+    g.genre_id,
+
+    -- Mesures
+    e.score_moyen,
+    e.age,
+    e.redoublant,
+    e.beneficiaire_bourse,
+    e.acces_cantine,
+    e.acces_internat,
+    e.a_abandonne
+
+FROM "education_db"."silver"."stg_eleves" e
+
+
+LEFT JOIN "education_db"."gold"."dim_date" d
+    ON e.annee_scolaire = d.annee_scolaire
+
+
+LEFT JOIN "education_db"."gold"."dim_cycle" c
+    ON e.cycle = c.cycle
+
+
+LEFT JOIN "education_db"."gold"."dim_genre" g
+    ON e.genre = g.genre
+  );
+  
+[0m12:19:28.116280 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:19:28.822534 [debug] [Thread-1 (]: SQL status: SELECT 15000 in 0.706 seconds
+[0m12:19:28.848719 [debug] [Thread-1 (]: Using postgres connection "model.education_platform.fact_eleves"
+[0m12:19:28.848719 [debug] [Thread-1 (]: On model.education_platform.fact_eleves: /* {"app": "dbt", "dbt_version": "1.12.0", "profile_name": "education_platform", "target_name": "dev", "node_id": "model.education_platform.fact_eleves"} */
+alter table "education_db"."gold"."fact_eleves" rename to "fact_eleves__dbt_backup"
+[0m12:19:28.858131 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.004 seconds
+[0m12:19:28.864703 [debug] [Thread-1 (]: Using postgres connection "model.education_platform.fact_eleves"
+[0m12:19:28.864703 [debug] [Thread-1 (]: On model.education_platform.fact_eleves: /* {"app": "dbt", "dbt_version": "1.12.0", "profile_name": "education_platform", "target_name": "dev", "node_id": "model.education_platform.fact_eleves"} */
+alter table "education_db"."gold"."fact_eleves__dbt_tmp" rename to "fact_eleves"
+[0m12:19:28.870649 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.002 seconds
+[0m12:19:28.912573 [debug] [Thread-1 (]: On model.education_platform.fact_eleves: COMMIT
+[0m12:19:28.912573 [debug] [Thread-1 (]: Using postgres connection "model.education_platform.fact_eleves"
+[0m12:19:28.915597 [debug] [Thread-1 (]: On model.education_platform.fact_eleves: COMMIT
+[0m12:19:28.932018 [debug] [Thread-1 (]: SQL status: COMMIT in 0.022 seconds
+[0m12:19:28.951105 [debug] [Thread-1 (]: Applying DROP to: "education_db"."gold"."fact_eleves__dbt_backup"
+[0m12:19:28.966733 [debug] [Thread-1 (]: Using postgres connection "model.education_platform.fact_eleves"
+[0m12:19:28.968754 [debug] [Thread-1 (]: On model.education_platform.fact_eleves: /* {"app": "dbt", "dbt_version": "1.12.0", "profile_name": "education_platform", "target_name": "dev", "node_id": "model.education_platform.fact_eleves"} */
+drop table if exists "education_db"."gold"."fact_eleves__dbt_backup" cascade
+[0m12:19:28.994477 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.023 seconds
+[0m12:19:28.999517 [debug] [Thread-1 (]: On model.education_platform.fact_eleves: Close
+[0m12:19:29.005114 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3ade4a9-324d-45c4-956f-15458caa697b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA635E85F0>]}
+[0m12:19:29.008252 [info ] [Thread-1 (]: 1 of 1 OK created sql table model gold.fact_eleves ............................. [[32mSELECT 15000[0m in 0.98s]
+[0m12:19:29.008252 [debug] [Thread-1 (]: Finished running node model.education_platform.fact_eleves
+[0m12:19:29.013771 [debug] [MainThread]: On master: COMMIT
+[0m12:19:29.013771 [debug] [MainThread]: Using postgres connection "master"
+[0m12:19:29.017283 [debug] [MainThread]: On master: COMMIT
+[0m12:19:29.019186 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m12:19:29.057727 [debug] [MainThread]: SQL status: COMMIT in 0.039 seconds
+[0m12:19:29.057727 [debug] [MainThread]: On master: Close
+[0m12:19:29.061752 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:19:29.061752 [debug] [MainThread]: Connection 'list_education_db' was properly closed.
+[0m12:19:29.064667 [debug] [MainThread]: Connection 'list_education_db_gold' was properly closed.
+[0m12:19:29.064667 [debug] [MainThread]: Connection 'list_education_db_silver' was properly closed.
+[0m12:19:29.069109 [debug] [MainThread]: Connection 'model.education_platform.fact_eleves' was properly closed.
+[0m12:19:29.069646 [info ] [MainThread]: 
+[0m12:19:29.073435 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 7.85 seconds (7.85s).
+[0m12:19:29.076277 [debug] [MainThread]: Command end result
+[0m12:19:29.202613 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\dbt\target\manifest.json
+[0m12:19:29.212977 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\dbt\target\semantic_manifest.json
+[0m12:19:29.227938 [debug] [MainThread]: Wrote artifact OsiDocument to C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\dbt\target\osi_document.json
+[0m12:19:29.259691 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\PRO\Desktop\Morocco Education Data Intelligence Platform\dbt\target\run_results.json
+[0m12:19:29.261158 [info ] [MainThread]: 
+[0m12:19:29.262171 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:19:29.264121 [info ] [MainThread]: 
+[0m12:19:29.266135 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=1
+[0m12:19:29.271022 [debug] [MainThread]: Command `dbt run` succeeded at 12:19:29.271022 after 15.04 seconds
+[0m12:19:29.271022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA67D38D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA661ADAF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA661AF1D0>]}
+[0m12:19:29.271022 [debug] [MainThread]: Flushing usage events
+[0m12:19:30.753027 [debug] [MainThread]: An error was encountered while trying to flush usage events
