@@ -320,35 +320,24 @@ Morocco-Education-Data-Intelligence-Platform/
 - Completion Rate
 - Average Evaluation Score
 
----
-
-# 📷 Dashboard Preview
 
 
+<img width="1145" height="577" alt="dash_elev" src="https://github.com/user-attachments/assets/8a4e46d9-98f7-442d-8617-92d03b93aec3" />
 
-```
-images/
 
-executive_dashboard.png
+<img width="1180" height="613" alt="dash_ense" src="https://github.com/user-attachments/assets/cf6e30f9-44ef-4514-9bb9-76c1e99af913" />
 
-![1786116040637](image/readme/1786116040637.png)
 
-students_dashboard.png
+<img width="1180" height="614" alt="dash_exam" src="https://github.com/user-attachments/assets/75b93964-8056-4c38-81ac-b02d5c091e14" />
 
-![1786116066846](image/readme/1786116066846.png)
 
-teachers_dashboard.png
+<img width="1173" height="608" alt="dash_appui" src="https://github.com/user-attachments/assets/356684ae-adb1-4a9e-92a9-ef8dd65c1296" />
 
-![1786116076795](image/readme/1786116076795.png)
 
-exams_dashboard.png
-![1786116104346](image/readme/1786116104346.png)
+<img width="1177" height="615" alt="dash_alpha" src="https://github.com/user-attachments/assets/feed1fe4-720f-44bd-b9bd-87e1825064c4" />
 
-social_support_dashboard.png
-![1786116117164](image/readme/1786116117164.png)
 
-literacy_dashboard.png
-![1786116127373](image/readme/1786116127373.png)
+>>>>>>> 8c3660cc0519f6e6c37da05f75d33b98afe6c931
 ```
 
 ---
