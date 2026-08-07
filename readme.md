@@ -324,22 +324,31 @@ Morocco-Education-Data-Intelligence-Platform/
 
 # 📷 Dashboard Preview
 
-Add screenshots here.
+
 
 ```
 images/
 
 executive_dashboard.png
 
+![1786116040637](image/readme/1786116040637.png)
+
 students_dashboard.png
+
+![1786116066846](image/readme/1786116066846.png)
 
 teachers_dashboard.png
 
+![1786116076795](image/readme/1786116076795.png)
+
 exams_dashboard.png
+![1786116104346](image/readme/1786116104346.png)
 
 social_support_dashboard.png
+![1786116117164](image/readme/1786116117164.png)
 
 literacy_dashboard.png
+![1786116127373](image/readme/1786116127373.png)
 ```
 
 ---
