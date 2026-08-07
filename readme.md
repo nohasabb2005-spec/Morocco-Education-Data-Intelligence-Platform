@@ -1,4 +1,4 @@
-# 🎓 Morocco Education Data Intelligence Platform
+<img width="1177" height="615" alt="dash_alpha" src="https://github.com/user-attachments/assets/fab7e70f-0790-4a72-85ad-420c508e9da3" /># 🎓 Morocco Education Data Intelligence Platform
 
 A modern Business Intelligence and Data Engineering platform designed to analyze the Moroccan education system using a Lakehouse-inspired architecture.
 
@@ -329,17 +329,24 @@ Add screenshots here.
 ```
 images/
 
-executive_dashboard.png
+<img width="1026" height="637" alt="vue_das" src="https://github.com/user-attachments/assets/09d46438-4fd5-4e9f-b140-d4caaeaf331b" />
 
-students_dashboard.png
 
-teachers_dashboard.png
+<img width="1145" height="577" alt="dash_elev" src="https://github.com/user-attachments/assets/8a4e46d9-98f7-442d-8617-92d03b93aec3" />
 
-exams_dashboard.png
 
-social_support_dashboard.png
+<img width="1180" height="613" alt="dash_ense" src="https://github.com/user-attachments/assets/cf6e30f9-44ef-4514-9bb9-76c1e99af913" />
 
-literacy_dashboard.png
+
+<img width="1180" height="614" alt="dash_exam" src="https://github.com/user-attachments/assets/75b93964-8056-4c38-81ac-b02d5c091e14" />
+
+
+<img width="1173" height="608" alt="dash_appui" src="https://github.com/user-attachments/assets/356684ae-adb1-4a9e-92a9-ef8dd65c1296" />
+
+
+<img width="1177" height="615" alt="dash_alpha" src="https://github.com/user-attachments/assets/feed1fe4-720f-44bd-b9bd-87e1825064c4" />
+
+
 ```
 
 ---
